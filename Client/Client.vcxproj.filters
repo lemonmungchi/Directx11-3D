@@ -21,6 +21,9 @@
     <ClCompile Include="01. TriangleDemo.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+    <ClCompile Include="02. QuadDemo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -32,9 +35,15 @@
     <ClInclude Include="01. TriangleDemo.h">
       <Filter>Game</Filter>
     </ClInclude>
+    <ClInclude Include="02. QuadDemo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\01. Triangle.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\02. Quad.fx">
       <Filter>Shaders</Filter>
     </FxCompile>
   </ItemGroup>
