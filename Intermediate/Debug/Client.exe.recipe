@@ -2,15 +2,15 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\Client.exe</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\Client.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\01. Triangle.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\01. Triangle.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\02. Quad.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\02. Quad.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

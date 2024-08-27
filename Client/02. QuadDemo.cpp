@@ -31,5 +31,5 @@ void QuadDemo::Render()
 	DC->IASetIndexBuffer(_indexBuffer->GetComPtr().Get(), DXGI_FORMAT_R32_UINT, 0);
 	
 	//_buffer->GetCount()
-	_shader->DrawIndexed(0, 0, _indexBuffer->GetCount(), 0, 0);
+	_shader->DrawIndexed(0, 1, _indexBuffer->GetCount(), 0, 0);
 }

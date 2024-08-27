@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Project\\Directx11-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\01. TriangleDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\01. TriangleDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\02. Quad.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\02. Quad.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\02. QuadDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\02. QuadDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\01. TriangleDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\01. TriangleDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\02. QuadDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\02. QuadDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\IExecute.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\IExecute.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\01. Triangle.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -17,30 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\IExecute.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\IExecute.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\IExecute.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\IExecute.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "01. Triangle.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\01. Triangle.fx",
               "RelativeDocumentMoniker": "Shaders\\01. Triangle.fx",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "Shaders\\01. Triangle.fx",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-26T08:18:27.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:18:27.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "IExecute.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\IExecute.h",
               "RelativeDocumentMoniker": "Engine\\IExecute.h",
@@ -75,12 +74,11 @@
               "RelativeToolTip": "Engine\\IExecute.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-26T08:12:17.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:12:17.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Graphics.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Graphics.h",
               "RelativeDocumentMoniker": "Engine\\Graphics.h",
@@ -88,23 +86,12 @@
               "RelativeToolTip": "Engine\\Graphics.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-26T08:03:05.174Z"
+              "WhenOpened": "2024-08-26T08:03:05.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InputManager.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\InputManager.cpp",
-              "RelativeDocumentMoniker": "Engine\\InputManager.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\InputManager.cpp",
-              "RelativeToolTip": "Engine\\InputManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T08:03:02.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "01. TriangleDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\01. TriangleDemo.h",
               "RelativeDocumentMoniker": "Client\\01. TriangleDemo.h",
@@ -117,19 +104,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\Main.cpp",
-              "RelativeDocumentMoniker": "Client\\Main.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\Main.cpp",
-              "RelativeToolTip": "Client\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T08:09:02.812Z"
+              "DocumentIndex": 1,
+              "Title": "02. QuadDemo.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\02. QuadDemo.h",
+              "RelativeDocumentMoniker": "Client\\02. QuadDemo.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\02. QuadDemo.h",
+              "RelativeToolTip": "Client\\02. QuadDemo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-27T13:58:46.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IExecute.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\IExecute.cpp",
               "RelativeDocumentMoniker": "Engine\\IExecute.cpp",
@@ -137,19 +125,8 @@
               "RelativeToolTip": "Engine\\IExecute.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T08:12:16.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Graphics.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Graphics.cpp",
-              "RelativeDocumentMoniker": "Engine\\Graphics.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Graphics.cpp",
-              "RelativeToolTip": "Engine\\Graphics.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T08:03:00.287Z"
+              "WhenOpened": "2024-08-26T08:12:16.562Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -160,27 +137,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "01. TriangleDemo.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\01. TriangleDemo.cpp",
-              "RelativeDocumentMoniker": "Client\\01. TriangleDemo.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\01. TriangleDemo.cpp",
-              "RelativeToolTip": "Client\\01. TriangleDemo.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T08:11:48.543Z",
+              "Title": "02. Quad.fx",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\02. Quad.fx",
+              "RelativeDocumentMoniker": "Shaders\\02. Quad.fx",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Shaders\\02. Quad.fx",
+              "RelativeToolTip": "Shaders\\02. Quad.fx",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-27T14:00:04.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Game.cpp",
-              "RelativeDocumentMoniker": "Engine\\Game.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Game.cpp",
-              "RelativeToolTip": "Engine\\Game.cpp",
-              "ViewState": "AQIAAFcAAAAAAAAAAADwvwAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "02. QuadDemo.cpp",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\02. QuadDemo.cpp",
+              "RelativeDocumentMoniker": "Client\\02. QuadDemo.cpp",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\02. QuadDemo.cpp",
+              "RelativeToolTip": "Client\\02. QuadDemo.cpp",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T08:16:37.016Z",
+              "WhenOpened": "2024-08-27T13:56:29.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\Main.cpp",
+              "RelativeDocumentMoniker": "Client\\Main.cpp",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\Main.cpp",
+              "RelativeToolTip": "Client\\Main.cpp",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-26T08:09:02.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InputManager.cpp",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\InputManager.cpp",
+              "RelativeDocumentMoniker": "Engine\\InputManager.cpp",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\InputManager.cpp",
+              "RelativeToolTip": "Engine\\InputManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-26T08:03:02.396Z",
               "EditorCaption": ""
             }
           ]
