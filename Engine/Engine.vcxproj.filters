@@ -105,6 +105,21 @@
     <ClInclude Include="GeometryHelper.h">
       <Filter>01. Graphics\Buffer</Filter>
     </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -169,6 +184,21 @@
     </ClCompile>
     <ClCompile Include="GeometryHelper.cpp">
       <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>04. Component</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

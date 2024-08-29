@@ -1,13 +1,49 @@
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.pch
-c:\users\rookiss\desktop\gamecoding\libraries\lib\engine\engine.pdb
-c:\users\rookiss\desktop\gamecoding\libraries\lib\engine\engine.idb
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\pch.obj
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.obj
-c:\users\rookiss\desktop\gamecoding\libraries\lib\engine\engine.lib
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.vcxproj.filelistabsolute.txt
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.tlog\cl.command.1.tlog
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.tlog\cl.read.1.tlog
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.tlog\cl.write.1.tlog
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.tlog\lib-link.read.1.tlog
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.tlog\lib-link.write.1.tlog
-c:\users\rookiss\desktop\gamecoding\intermediate\debug\engine.tlog\lib.command.1.tlog
+c:\project\directx11-3d\intermediate\debug\engine.pch
+c:\project\directx11-3d\libraries\lib\engine\engine.pdb
+c:\project\directx11-3d\libraries\lib\engine\engine.idb
+c:\project\directx11-3d\intermediate\debug\pch.obj
+c:\project\directx11-3d\intermediate\debug\timemanager.obj
+c:\project\directx11-3d\intermediate\debug\texture.obj
+c:\project\directx11-3d\intermediate\debug\technique.obj
+c:\project\directx11-3d\intermediate\debug\simplemath.obj
+c:\project\directx11-3d\intermediate\debug\shader.obj
+c:\project\directx11-3d\intermediate\debug\resourcemanager.obj
+c:\project\directx11-3d\intermediate\debug\resourcebase.obj
+c:\project\directx11-3d\intermediate\debug\pass.obj
+c:\project\directx11-3d\intermediate\debug\monobehaviour.obj
+c:\project\directx11-3d\intermediate\debug\inputmanager.obj
+c:\project\directx11-3d\intermediate\debug\indexbuffer.obj
+c:\project\directx11-3d\intermediate\debug\iexecute.obj
+c:\project\directx11-3d\intermediate\debug\graphics.obj
+c:\project\directx11-3d\intermediate\debug\geometryhelper.obj
+c:\project\directx11-3d\intermediate\debug\geometry.obj
+c:\project\directx11-3d\intermediate\debug\gameobject.obj
+c:\project\directx11-3d\intermediate\debug\game.obj
+c:\project\directx11-3d\intermediate\debug\constantbuffer.obj
+c:\project\directx11-3d\intermediate\debug\component.obj
+c:\project\directx11-3d\intermediate\debug\camera.obj
+c:\project\directx11-3d\intermediate\debug\vertexdata.obj
+c:\project\directx11-3d\intermediate\debug\vertexbuffer.obj
+c:\project\directx11-3d\intermediate\debug\utils.obj
+c:\project\directx11-3d\intermediate\debug\transform.obj
+c:\project\directx11-3d\intermediate\debug\tinyxml2.obj
+c:\project\directx11-3d\libraries\lib\engine\engine.lib
+c:\project\directx11-3d\intermediate\debug\01. triangledemo.obj
+c:\project\directx11-3d\intermediate\debug\02. quaddemo.obj
+c:\project\directx11-3d\intermediate\debug\03. constbufferdemo.obj
+c:\project\directx11-3d\intermediate\debug\04. camerademo.obj
+c:\project\directx11-3d\intermediate\debug\05. texturedemo.obj
+c:\project\directx11-3d\intermediate\debug\camerascript.obj
+c:\project\directx11-3d\intermediate\debug\main.obj
+c:\project\directx11-3d\intermediate\debug\client.ilk
+c:\project\directx11-3d\intermediate\debug\client.pch
+c:\project\directx11-3d\intermediate\debug\vc143.idb
+c:\project\directx11-3d\intermediate\debug\vc143.pdb
+c:\project\directx11-3d\intermediate\debug\engine.vcxproj.filelistabsolute.txt
+c:\project\directx11-3d\intermediate\debug\engine.tlog\cl.command.1.tlog
+c:\project\directx11-3d\intermediate\debug\engine.tlog\cl.items.tlog
+c:\project\directx11-3d\intermediate\debug\engine.tlog\cl.read.1.tlog
+c:\project\directx11-3d\intermediate\debug\engine.tlog\cl.write.1.tlog
+c:\project\directx11-3d\intermediate\debug\engine.tlog\lib-link.read.1.tlog
+c:\project\directx11-3d\intermediate\debug\engine.tlog\lib-link.write.1.tlog
+c:\project\directx11-3d\intermediate\debug\engine.tlog\lib.command.1.tlog

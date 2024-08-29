@@ -12,6 +12,12 @@
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\02. Quad.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\03. ConstBuffer.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\04. World.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
