@@ -24,6 +24,7 @@
     <ClInclude Include="04. CameraDemo.h" />
     <ClInclude Include="05. TextureDemo.h" />
     <ClInclude Include="06. SamplerDemo.h" />
+    <ClInclude Include="07. HeightMapDemo.h" />
     <ClInclude Include="CameraScript.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
@@ -35,6 +36,7 @@
     <ClCompile Include="04. CameraDemo.cpp" />
     <ClCompile Include="05. TextureDemo.cpp" />
     <ClCompile Include="06. SamplerDemo.cpp" />
+    <ClCompile Include="07. HeightMapDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
@@ -56,7 +58,9 @@
     </FxCompile>
     <FxCompile Include="..\Shaders\02. Quad.fx" />
     <FxCompile Include="..\Shaders\03. ConstBuffer.fx" />
-    <FxCompile Include="..\Shaders\04. World.fx" />
+    <FxCompile Include="..\Shaders\04. Texture.fx" />
+    <FxCompile Include="..\Shaders\05. Sampler.fx" />
+    <FxCompile Include="..\Shaders\06. Terrain.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

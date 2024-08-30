@@ -16,7 +16,13 @@
       <FullPath>C:\Project\Directx11-3D\Binaries\03. ConstBuffer.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Project\Directx11-3D\Binaries\04. World.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\04. Texture.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\05. Sampler.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\06. Terrain.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

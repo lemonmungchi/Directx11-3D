@@ -6,7 +6,7 @@
 
 void SamplerDemo::Init()
 {
-	_shader = make_shared<Shader>(L"04. World.fx");
+	_shader = make_shared<Shader>(L"05. Sampler.fx");
 
 	//Object
 	_geometry = make_shared<Geometry<VertexTextureData>>();
@@ -25,7 +25,7 @@ void SamplerDemo::Init()
 	_camera->GetOrAddTransform();
 	_camera->AddComponent(make_shared<Camera>());
 	_camera->AddComponent(make_shared<CameraScript>());
-	_camera->GetTransform()->SetPosition(Vec3(0.f, 0.f, -2.f));
+	_camera->GetTransform()->SetPosition(Vec3(0.f, 3.f, 0.f));
 
 	//Texture
 	_texture = RESOURCES->Load<Texture>(L"Veigar", L"..\\Resources\\Textures\\veigar.jpg");
@@ -42,6 +42,16 @@ void SamplerDemo::Render()
 	_shader->GetMatrix("View")->SetMatrix((float*)&Camera::S_MatView);
 	_shader->GetMatrix("Projection")->SetMatrix((float*)&Camera::S_MatProjection);
 	_shader->GetSRV("Texture0")->SetResource(_texture->GetComPtr().Get());
+
+	enum ADDRESS_VALUE
+	{
+		ADDRESS_WRAP=0,
+		ADDRESS_MIRROR=1,
+		ADDRESS_CLAMP=2,
+		ADDRESS_BORDER=3,
+	};
+
+	_shader->GetScalar("Address")->SetInt(ADDRESS_WRAP);
 
 	uint32 stride = _vertexBuffer->GetStride();
 	uint32 offset = _vertexBuffer->GetOffset();
