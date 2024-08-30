@@ -39,6 +39,9 @@
     <ClCompile Include="05. TextureDemo.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+    <ClCompile Include="06. SamplerDemo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -63,6 +66,9 @@
       <Filter>Main\Camera</Filter>
     </ClInclude>
     <ClInclude Include="05. TextureDemo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="06. SamplerDemo.h">
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
