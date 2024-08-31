@@ -25,6 +25,7 @@
     <ClInclude Include="05. TextureDemo.h" />
     <ClInclude Include="06. SamplerDemo.h" />
     <ClInclude Include="07. HeightMapDemo.h" />
+    <ClInclude Include="08. NormalDemo.h" />
     <ClInclude Include="CameraScript.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
@@ -37,6 +38,7 @@
     <ClCompile Include="05. TextureDemo.cpp" />
     <ClCompile Include="06. SamplerDemo.cpp" />
     <ClCompile Include="07. HeightMapDemo.cpp" />
+    <ClCompile Include="08. NormalDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
@@ -61,6 +63,7 @@
     <FxCompile Include="..\Shaders\04. Texture.fx" />
     <FxCompile Include="..\Shaders\05. Sampler.fx" />
     <FxCompile Include="..\Shaders\06. Terrain.fx" />
+    <FxCompile Include="..\Shaders\07. Normal.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

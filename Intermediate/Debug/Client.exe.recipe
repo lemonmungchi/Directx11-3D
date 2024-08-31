@@ -24,6 +24,9 @@
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\06. Terrain.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\07. Normal.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
