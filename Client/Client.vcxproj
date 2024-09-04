@@ -29,6 +29,7 @@
     <ClInclude Include="09. MeshDemo.h" />
     <ClInclude Include="10. GlobalTestDemo.h" />
     <ClInclude Include="11. DepthStencilDemo.h" />
+    <ClInclude Include="12. AmbientDemo.h" />
     <ClInclude Include="CameraScript.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
@@ -45,6 +46,7 @@
     <ClCompile Include="09. MeshDemo.cpp" />
     <ClCompile Include="10. GlobalTestDemo.cpp" />
     <ClCompile Include="11. DepthStencilDemo.cpp" />
+    <ClCompile Include="12. AmbientDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
@@ -72,6 +74,7 @@
     <FxCompile Include="..\Shaders\06. Terrain.fx" />
     <FxCompile Include="..\Shaders\07. Normal.fx" />
     <FxCompile Include="..\Shaders\08. GlobalTest.fx" />
+    <FxCompile Include="..\Shaders\09. Lighting_Ambient.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
