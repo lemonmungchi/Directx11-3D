@@ -1,0 +1,39 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Project\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(Client.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  C:\Project\Directx11-3D\Engine\Camera.h
+  C:\Project\Directx11-3D\Engine\Component.h
+  C:\Project\Directx11-3D\Engine\ConstantBuffer.h
+  C:\Project\Directx11-3D\Engine\Define.h
+  C:\Project\Directx11-3D\Engine\EnginePch.h
+  C:\Project\Directx11-3D\Engine\Game.h
+  C:\Project\Directx11-3D\Engine\GameObject.h
+  C:\Project\Directx11-3D\Engine\Geometry.h
+  C:\Project\Directx11-3D\Engine\GeometryHelper.h
+  C:\Project\Directx11-3D\Engine\Graphics.h
+  C:\Project\Directx11-3D\Engine\IExecute.h
+  C:\Project\Directx11-3D\Engine\IndexBuffer.h
+  C:\Project\Directx11-3D\Engine\InputManager.h
+  C:\Project\Directx11-3D\Engine\Mesh.h
+  C:\Project\Directx11-3D\Engine\MeshRenderer.h
+  C:\Project\Directx11-3D\Engine\MonoBehaviour.h
+  C:\Project\Directx11-3D\Engine\Pass.h
+  C:\Project\Directx11-3D\Engine\pch.h
+  C:\Project\Directx11-3D\Engine\RenderManager.h
+  C:\Project\Directx11-3D\Engine\ResourceBase.h
+  C:\Project\Directx11-3D\Engine\ResourceManager.h
+  C:\Project\Directx11-3D\Engine\Shader.h
+  C:\Project\Directx11-3D\Engine\SimpleMath.h
+  C:\Project\Directx11-3D\Engine\Technique.h
+  C:\Project\Directx11-3D\Engine\Texture.h
+  C:\Project\Directx11-3D\Engine\TimeManager.h
+  C:\Project\Directx11-3D\Engine\tinyxml2.h
+  C:\Project\Directx11-3D\Engine\Transform.h
+  C:\Project\Directx11-3D\Engine\Types.h
+  C:\Project\Directx11-3D\Engine\Utils.h
+  C:\Project\Directx11-3D\Engine\VertexBuffer.h
+  C:\Project\Directx11-3D\Engine\VertexData.h
+  32개 파일이 복사되었습니다.
+  C:\Project\Directx11-3D\Engine\SimpleMath.inl
+  1개 파일이 복사되었습니다.
+  MeshRenderer.cpp
+C:\Project\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Engine.vcxproj -> C:\Project\Directx11-3D\Libraries\Lib\Engine\Engine.lib

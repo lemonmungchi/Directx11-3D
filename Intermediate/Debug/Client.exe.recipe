@@ -2,39 +2,42 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\Client.exe</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\Client.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\00. Global.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\00. Global.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\01. Triangle.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\01. Triangle.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\02. Quad.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\02. Quad.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\03. ConstBuffer.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\03. ConstBuffer.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\04. Texture.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\04. Texture.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\05. Sampler.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\05. Sampler.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\06. Terrain.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\06. Terrain.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\07. Normal.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\07. Normal.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\08. GlobalTest.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\08. GlobalTest.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\09. Lighting_Ambient.cso</FullPath>
+      <FullPath>C:\Project\Directx11-3D\Binaries\09. Lighting_Ambient.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\10. Lighting_Diffuse.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

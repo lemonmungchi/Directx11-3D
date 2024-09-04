@@ -75,6 +75,9 @@
     <ClCompile Include="12. AmbientDemo.cpp">
       <Filter>Game\Week2</Filter>
     </ClCompile>
+    <ClCompile Include="13. DiffuseDemo.cpp">
+      <Filter>Game\Week2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -122,6 +125,9 @@
     <ClInclude Include="12. AmbientDemo.h">
       <Filter>Game\Week2</Filter>
     </ClInclude>
+    <ClInclude Include="13. DiffuseDemo.h">
+      <Filter>Game\Week2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\01. Triangle.fx">
@@ -152,6 +158,9 @@
       <Filter>Shaders\Week2</Filter>
     </FxCompile>
     <FxCompile Include="..\Shaders\09. Lighting_Ambient.fx">
+      <Filter>Shaders\Week2</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\10. Lighting_Diffuse.fx">
       <Filter>Shaders\Week2</Filter>
     </FxCompile>
   </ItemGroup>
