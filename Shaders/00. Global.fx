@@ -56,6 +56,14 @@ struct VertexOutput
     float3 normal : NORMAL;
 };
 
+struct MeshOutput
+{
+    float4 position : SV_POSITION;
+    float3 worldPosition : POSITION1;
+    float2 uv : TEXCOORD;
+    float3 normal : NORMAL;
+};
+
 /////////////////
 // SamplerState //
 /////////////////

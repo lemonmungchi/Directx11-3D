@@ -39,6 +39,9 @@
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\10. Lighting_Diffuse.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\11. Lighting_Specular.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />

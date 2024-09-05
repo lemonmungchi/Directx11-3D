@@ -14,6 +14,8 @@
 #include "11. DepthStencilDemo.h"
 #include "12. AmbientDemo.h"
 #include "13. DiffuseDemo.h"
+#include "14. SpecularDemo.h"
+
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {
@@ -26,7 +28,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	desc.height = 600;
 	desc.clearColor = Color(0.f, 0.f, 0.f, 0.f);
 	//실행단위
-	desc.app = make_shared<DiffuseDemo>();
+	desc.app = make_shared<SpecularDemo>();
 
 	GAME->Run(desc);
 
