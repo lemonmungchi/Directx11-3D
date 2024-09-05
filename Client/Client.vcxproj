@@ -32,6 +32,7 @@
     <ClInclude Include="12. AmbientDemo.h" />
     <ClInclude Include="13. DiffuseDemo.h" />
     <ClInclude Include="14. SpecularDemo.h" />
+    <ClInclude Include="15. EmissiveDemo.h" />
     <ClInclude Include="CameraScript.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
@@ -51,6 +52,7 @@
     <ClCompile Include="12. AmbientDemo.cpp" />
     <ClCompile Include="13. DiffuseDemo.cpp" />
     <ClCompile Include="14. SpecularDemo.cpp" />
+    <ClCompile Include="15. EmissiveDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
@@ -81,6 +83,7 @@
     <FxCompile Include="..\Shaders\09. Lighting_Ambient.fx" />
     <FxCompile Include="..\Shaders\10. Lighting_Diffuse.fx" />
     <FxCompile Include="..\Shaders\11. Lighting_Specular.fx" />
+    <FxCompile Include="..\Shaders\12. Lighting_Emissive.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
