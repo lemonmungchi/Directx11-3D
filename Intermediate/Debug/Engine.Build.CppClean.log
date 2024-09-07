@@ -1,9 +1,7 @@
+c:\project\directx11-3d\intermediate\debug\engine.pch
 c:\project\directx11-3d\libraries\lib\engine\engine.pdb
 c:\project\directx11-3d\libraries\lib\engine\engine.idb
-c:\project\directx11-3d\intermediate\debug\tinyxml2.obj
-c:\project\directx11-3d\intermediate\debug\engine.pch
 c:\project\directx11-3d\intermediate\debug\pch.obj
-c:\project\directx11-3d\intermediate\debug\simplemath.obj
 c:\project\directx11-3d\intermediate\debug\shader.obj
 c:\project\directx11-3d\intermediate\debug\resourcemanager.obj
 c:\project\directx11-3d\intermediate\debug\resourcebase.obj
@@ -12,6 +10,7 @@ c:\project\directx11-3d\intermediate\debug\pass.obj
 c:\project\directx11-3d\intermediate\debug\monobehaviour.obj
 c:\project\directx11-3d\intermediate\debug\meshrenderer.obj
 c:\project\directx11-3d\intermediate\debug\mesh.obj
+c:\project\directx11-3d\intermediate\debug\material.obj
 c:\project\directx11-3d\intermediate\debug\inputmanager.obj
 c:\project\directx11-3d\intermediate\debug\indexbuffer.obj
 c:\project\directx11-3d\intermediate\debug\iexecute.obj
@@ -30,6 +29,8 @@ c:\project\directx11-3d\intermediate\debug\transform.obj
 c:\project\directx11-3d\intermediate\debug\timemanager.obj
 c:\project\directx11-3d\intermediate\debug\texture.obj
 c:\project\directx11-3d\intermediate\debug\technique.obj
+c:\project\directx11-3d\intermediate\debug\simplemath.obj
+c:\project\directx11-3d\intermediate\debug\tinyxml2.obj
 c:\project\directx11-3d\libraries\lib\engine\engine.lib
 c:\project\directx11-3d\intermediate\debug\01. triangledemo.obj
 c:\project\directx11-3d\intermediate\debug\02. quaddemo.obj
@@ -47,6 +48,8 @@ c:\project\directx11-3d\intermediate\debug\13. diffusedemo.obj
 c:\project\directx11-3d\intermediate\debug\14. speculardemo.obj
 c:\project\directx11-3d\intermediate\debug\15. emissivedemo.obj
 c:\project\directx11-3d\intermediate\debug\16. lightingdemo.obj
+c:\project\directx11-3d\intermediate\debug\17. materialdemo.obj
+c:\project\directx11-3d\intermediate\debug\18. normalmappingdemo.obj
 c:\project\directx11-3d\intermediate\debug\camerascript.obj
 c:\project\directx11-3d\intermediate\debug\main.obj
 c:\project\directx11-3d\intermediate\debug\client.ilk
