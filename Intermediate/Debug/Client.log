@@ -1,5 +1,35 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Project\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(Engine.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
 FXC : warning X4717: Effects deprecated for D3DCompiler_47
   
+  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\00. Global.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\00. Light.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\08. GlobalTest.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\09. Lighting_Ambient.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\10. Lighting_Diffuse.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Project\Directx11-3D\Shaders\11. Lighting_Specular.fx(13,5-42): warning X3206: implicit truncation of vector type
+C:\Project\Directx11-3D\Shaders\11. Lighting_Specular.fx(9,14-41): warning X3578: Output value 'VS' is not completely initialized
+  
+  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\11. Lighting_Specular.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Project\Directx11-3D\Shaders\12. Lighting_Emissive.fx(11,5-42): warning X3206: implicit truncation of vector type
+C:\Project\Directx11-3D\Shaders\12. Lighting_Emissive.fx(7,14-41): warning X3578: Output value 'VS' is not completely initialized
+  
+  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\12. Lighting_Emissive.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Project\Directx11-3D\Shaders\13. Lighting.fx(23,11-75): warning X3206: implicit truncation of vector type
+C:\Project\Directx11-3D\Shaders\13. Lighting.fx(5,14-41): warning X3578: Output value 'VS' is not completely initialized
+  
+  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\13. Lighting.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
   compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\14. NormalMapping.cso
   Client.vcxproj -> C:\Project\Directx11-3D\Binaries\Client.exe

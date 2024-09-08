@@ -33,6 +33,7 @@ void RenderManager::PushGlobalData(const Matrix& view, const Matrix& projection)
 	_globalDesc.V = view;
 	_globalDesc.P = projection;
 	_globalDesc.VP = view * projection;
+	_globalDesc.VInv = view.Invert();
 	_globalBuffer->CopyData(_globalDesc);
 	//쉐이더로 밀어넣기
 	_globalEffectBuffer->SetConstantBuffer(_globalBuffer->GetComPtr().Get());

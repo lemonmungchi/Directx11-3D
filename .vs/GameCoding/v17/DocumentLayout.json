@@ -3,31 +3,32 @@
   "WorkspaceRootPath": "C:\\Project\\Directx11-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\18. NormalMappingDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\14. NormalMapping.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\14. NormalMapping.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\13. Lighting.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\13. Lighting.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\00. Light.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\00. Light.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\00. Global.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\00. Global.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\18. NormalMappingDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\14. NormalMapping.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\14. NormalMapping.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B77CEE3-56F8-4578-B36B-98EACDD61EE0}|..\\..\\Users\\khc11\\AppData\\Roaming\\Microsoft\\VisualStudio\\17.0_59d00479\\SingleFileISense\\_sfi_6cf2387c-7809-4ef8-9ebf-12deda3c922e_.vcxproj|C:\\USERS\\KHC11\\ONEDRIVE\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-19)\u002BNORMALMAPPING\\ENGINE\\MESH.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\18. NormalMappingDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\00. Light.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\00. Light.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\13. Lighting.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\13. Lighting.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -96,6 +97,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-19)\u002BNormalMapping\\Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -104,38 +108,38 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 177,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 189,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "14. NormalMapping.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\14. NormalMapping.fx",
               "RelativeDocumentMoniker": "Shaders\\14. NormalMapping.fx",
               "ToolTip": "C:\\Project\\Directx11-3D\\Shaders\\14. NormalMapping.fx",
               "RelativeToolTip": "Shaders\\14. NormalMapping.fx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-09-07T14:04:08.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "18. NormalMappingDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.h",
               "RelativeDocumentMoniker": "Client\\18. NormalMappingDemo.h",
               "ToolTip": "C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.h",
               "RelativeToolTip": "Client\\18. NormalMappingDemo.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-07T13:23:34.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Mesh.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Mesh.h",
               "RelativeDocumentMoniker": "Engine\\Mesh.h",
@@ -143,25 +147,37 @@
               "RelativeToolTip": "Engine\\Mesh.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-07T13:54:31.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T13:54:31.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "00. Light.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\00. Light.fx",
               "RelativeDocumentMoniker": "Shaders\\00. Light.fx",
               "ToolTip": "C:\\Project\\Directx11-3D\\Shaders\\00. Light.fx",
               "RelativeToolTip": "Shaders\\00. Light.fx",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAgwH8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-09-06T02:31:09.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "00. Global.fx",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\00. Global.fx",
+              "RelativeDocumentMoniker": "Shaders\\00. Global.fx",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Shaders\\00. Global.fx",
+              "RelativeToolTip": "Shaders\\00. Global.fx",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAHoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-08T04:15:52.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "13. Lighting.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\13. Lighting.fx",
               "RelativeDocumentMoniker": "Shaders\\13. Lighting.fx",
@@ -169,8 +185,7 @@
               "RelativeToolTip": "Shaders\\13. Lighting.fx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-06T02:28:09.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T02:28:09.675Z"
             },
             {
               "$type": "Document",
@@ -182,8 +197,7 @@
               "RelativeToolTip": "Engine\\Graphics.h",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-03T12:12:56.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T12:12:56.932Z"
             },
             {
               "$type": "Document",
@@ -296,12 +310,12 @@
           ]
         },
         {
-          "DockedWidth": 223,
+          "DockedWidth": 211,
           "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 24,
               "Title": "Mesh.h",
               "DocumentMoniker": "C:\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-19)\u002BNormalMapping\\Engine\\Mesh.h",
               "RelativeDocumentMoniker": "..\\..\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-19)\u002BNormalMapping\\Engine\\Mesh.h",
@@ -309,8 +323,7 @@
               "RelativeToolTip": "..\\..\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-19)\u002BNormalMapping\\Engine\\Mesh.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-07T13:54:28.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T13:54:28.615Z"
             },
             {
               "$type": "Document",
@@ -322,8 +335,7 @@
               "RelativeToolTip": "Engine\\Shader.cpp",
               "ViewState": "AQIAAA0BAAAAAAAAAAApwCUBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-07T13:48:50.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T13:48:50.982Z"
             },
             {
               "$type": "Document",
@@ -335,18 +347,17 @@
               "RelativeToolTip": "Client\\Main.cpp",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T08:09:02.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:09:02.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "18. NormalMappingDemo.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.cpp",
               "RelativeDocumentMoniker": "Client\\18. NormalMappingDemo.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.cpp",
               "RelativeToolTip": "Client\\18. NormalMappingDemo.cpp",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAiwFwAAAASAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-07T13:23:35.369Z",
               "EditorCaption": ""
@@ -373,8 +384,7 @@
               "RelativeToolTip": "Engine\\Mesh.cpp",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-01T12:47:37.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T12:47:37.137Z"
             },
             {
               "$type": "Document",
