@@ -1,21 +1,21 @@
-C:\Project\Directx11-3D\Client\02. QuadDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\02. QuadDemo.obj
-C:\Project\Directx11-3D\Client\03. ConstBufferDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\03. ConstBufferDemo.obj
-C:\Project\Directx11-3D\Client\04. CameraDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\04. CameraDemo.obj
-C:\Project\Directx11-3D\Client\05. TextureDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\05. TextureDemo.obj
-C:\Project\Directx11-3D\Client\06. SamplerDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\06. SamplerDemo.obj
-C:\Project\Directx11-3D\Client\07. HeightMapDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\07. HeightMapDemo.obj
-C:\Project\Directx11-3D\Client\08. NormalDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\08. NormalDemo.obj
-C:\Project\Directx11-3D\Client\09. MeshDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\09. MeshDemo.obj
-C:\Project\Directx11-3D\Client\10. GlobalTestDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\10. GlobalTestDemo.obj
-C:\Project\Directx11-3D\Client\11. DepthStencilDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\11. DepthStencilDemo.obj
-C:\Project\Directx11-3D\Client\12. AmbientDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\12. AmbientDemo.obj
-C:\Project\Directx11-3D\Client\13. DiffuseDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\13. DiffuseDemo.obj
-C:\Project\Directx11-3D\Client\14. SpecularDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\14. SpecularDemo.obj
-C:\Project\Directx11-3D\Client\15. EmissiveDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\15. EmissiveDemo.obj
-C:\Project\Directx11-3D\Client\16. LightingDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\16. LightingDemo.obj
-C:\Project\Directx11-3D\Client\17. MaterialDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\17. MaterialDemo.obj
-C:\Project\Directx11-3D\Client\18. NormalMappingDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\18. NormalMappingDemo.obj
-C:\Project\Directx11-3D\Client\CameraScript.cpp;C:\Project\Directx11-3D\Intermediate\Debug\CameraScript.obj
-C:\Project\Directx11-3D\Client\Main.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Main.obj
-C:\Project\Directx11-3D\Client\pch.cpp;C:\Project\Directx11-3D\Intermediate\Debug\pch.obj
-C:\Project\Directx11-3D\Client\01. TriangleDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\01. TriangleDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\02. QuadDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\02. QuadDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\03. ConstBufferDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\03. ConstBufferDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\04. CameraDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\04. CameraDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\05. TextureDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\05. TextureDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\06. SamplerDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\06. SamplerDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\07. HeightMapDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\07. HeightMapDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\08. NormalDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\08. NormalDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\09. MeshDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\09. MeshDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\10. GlobalTestDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\10. GlobalTestDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\11. DepthStencilDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\11. DepthStencilDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\12. AmbientDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\12. AmbientDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\13. DiffuseDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\13. DiffuseDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\14. SpecularDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\14. SpecularDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\15. EmissiveDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\15. EmissiveDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\16. LightingDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\16. LightingDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\17. MaterialDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\17. MaterialDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\18. NormalMappingDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\18. NormalMappingDemo.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\CameraScript.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\CameraScript.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\Main.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Main.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\pch.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\pch.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Client\01. TriangleDemo.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\01. TriangleDemo.obj

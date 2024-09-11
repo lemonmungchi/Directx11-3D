@@ -1,4 +1,4 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(Client.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(AssimpTool.vcxproj, Client.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Camera.h
   C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Component.h
   C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ConstantBuffer.h
@@ -37,12 +37,8 @@
   1개 파일이 복사되었습니다.
   pch.cpp
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Graphics.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ResourceBase.h(5,2): warning C4309: '초기화 중': 상수 값이 잘립니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ResourceBase.h(5,2): warning C4369: 'ResourceType::None':  열거자 값 '-1'을(를) 'unsigned char'(으)로 나타낼 수 없습니다. 값은 '-1'입니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ResourceBase.h(6,2): warning C4340: 'Mesh': 양의 값에서 음의 값으로 값이 래핑되었습니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ResourceBase.h(6,2): warning C4309: '초기화 중': 상수 값이 잘립니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ResourceBase.h(6,2): warning C4369: 'ResourceType::Mesh':  열거자 값 '256'을(를) 'unsigned char'(으)로 나타낼 수 없습니다. 값은 '256'입니다.
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\RenderManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\VertexData.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Component.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Transform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Mesh.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
