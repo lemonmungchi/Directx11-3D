@@ -17,7 +17,7 @@ struct asMesh
 	string name;
 	aiMesh* mesh;
 	vector<VetexType> vertices;
-	vector<uint32> indicies;
+	vector<uint32> indices;
 
 	int32 boneIndex;		//계층구조
 	string materialName;

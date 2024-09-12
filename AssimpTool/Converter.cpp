@@ -50,17 +50,95 @@ void Converter::ExportMaterialData(wstring savePath)
 	WriteMaterialData(finalPath);
 }
 
+//노드- 데이터 저장단위
 void Converter::ReadModelData(aiNode* node, int32 index, int32 parent)
 {
+	shared_ptr<asBone> bone = make_shared<asBone>();
+	bone->index = index;
+	bone->parent = parent;
+	bone->name = node->mName.C_Str();
 
+	//transform 추출 - 주소를 받아주기
+	Matrix transform(node->mTransformation[0]);
+	//fbx -> 4*4가 전치되어있어서 다시 전치해주어야한다.
+	// 상대좌표
+	bone->transform = transform.Transpose();
+
+
+	//루트에 가져온 메트릭스 - 재귀
+	Matrix matParent = Matrix::Identity;
+	if (parent >= 0)
+		matParent = _bones[parent]->transform;
+	//Local(Root) Transform
+	bone->transform = bone->transform * matParent;
+
+	_bones.push_back(bone);
+
+	//Mesh
+	ReadMeshData(node, index);
+
+
+	//계층타기 - 재귀
+	for (uint32 i = 0; i < node->mNumChildren; i++)
+		ReadModelData(node->mChildren[i], _bones.size(), index);
 }
 
 void Converter::ReadMeshData(aiNode* node, int32 bone)
 {
+	if (node->mNumMeshes < 1)
+		return;
+
+	shared_ptr<asMesh> mesh = make_shared<asMesh>();
+	mesh->name = node->mName.C_Str();
+	mesh->boneIndex = bone;
+
+	for (uint32 i = 0; i < node->mNumMeshes; i++)
+	{
+		//Scene에서 매쉬 번호
+		uint32 index = node->mMeshes[i];
+		const aiMesh* srcMesh = _scene->mMeshes[index]; 
+
+		// Material Name - Material 과의 관계를 위해
+		const aiMaterial* material = _scene->mMaterials[srcMesh->mMaterialIndex];
+		mesh->materialName = material->GetName().C_Str();
+
+		//시작 정점번호 - 서브매쉬 구분을 위하여
+		const uint32 startVertex = mesh->vertices.size();
+
+		for (uint32 v = 0; v < srcMesh->mNumVertices; v++)
+		{
+			// Vertex
+			VetexType vertex;
+			::memcpy(&vertex.position, &srcMesh->mVertices[v], sizeof(Vec3));
+
+			// UV
+			if (srcMesh->HasTextureCoords(0))
+				::memcpy(&vertex.uv, &srcMesh->mTextureCoords[0][v], sizeof(Vec2));
+
+			// Normal
+			if (srcMesh->HasNormals())
+				::memcpy(&vertex.normal, &srcMesh->mNormals[v], sizeof(Vec3));
+
+			mesh->vertices.push_back(vertex);
+		}
+
+		// Index
+		for (uint32 f = 0; f < srcMesh->mNumFaces; f++)
+		{
+			aiFace& face = srcMesh->mFaces[f];
+
+			for (uint32 k = 0; k < face.mNumIndices; k++)
+				mesh->indices.push_back(face.mIndices[k] + startVertex);
+		}
+	}
+
+	_meshes.push_back(mesh);
 }
 
+//바이너리 파일로 관리
 void Converter::WriteModelFile(wstring finalPath)
 {
+
 }
 
 void Converter::ReadMaterialData()
@@ -185,5 +263,64 @@ void Converter::WriteMaterialData(wstring finalPath)
 
 string Converter::WriteTexture(string saveFolder, string file)
 {
-	return "";
+	string fileName = filesystem::path(file).filename().string();
+	string folderName = filesystem::path(saveFolder).filename().string();
+
+	//fbx에 texture가 내장되어있는 경우
+	const aiTexture* srcTexture = _scene->GetEmbeddedTexture(file.c_str());
+	//메모리로 가져온 다음 파일로 저장
+	if (srcTexture)
+	{
+		string pathStr = saveFolder + fileName;
+
+		//바이너리모드
+		if (srcTexture->mHeight == 0)
+		{
+			//shared_ptr<FileUtils> file = make_shared<FileUtils>();
+			//file->Open(Utils::ToWString(pathStr), FileMode::Write);
+			//file->Write(srcTexture->pcData, srcTexture->mWidth);
+		}
+		else
+		{
+			D3D11_TEXTURE2D_DESC desc;
+			ZeroMemory(&desc, sizeof(D3D11_TEXTURE2D_DESC));
+			desc.Width = srcTexture->mWidth;
+			desc.Height = srcTexture->mHeight;
+			desc.MipLevels = 1;
+			desc.ArraySize = 1;
+			desc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
+			desc.SampleDesc.Count = 1;
+			desc.SampleDesc.Quality = 0;
+			desc.Usage = D3D11_USAGE_IMMUTABLE;
+
+			D3D11_SUBRESOURCE_DATA subResource = { 0 };
+			subResource.pSysMem = srcTexture->pcData;
+
+			ComPtr<ID3D11Texture2D> texture;
+			HRESULT hr = DEVICE->CreateTexture2D(&desc, &subResource, texture.GetAddressOf());
+			CHECK(hr);
+
+			DirectX::ScratchImage img;
+			::CaptureTexture(DEVICE.Get(), DC.Get(), texture.Get(), img);
+
+			// Save To File
+			hr = DirectX::SaveToDDSFile(*img.GetImages(), DirectX::DDS_FLAGS_NONE, Utils::ToWString(fileName).c_str());
+			CHECK(hr);
+		}
+	}
+	else
+	{
+		//원본경로
+		string originStr = (filesystem::path(_assetPath) / folderName / file).string();
+		Utils::Replace(originStr, "\\", "/");
+
+		//최종경로
+		string pathStr = (filesystem::path(saveFolder) / fileName).string();
+		Utils::Replace(pathStr, "\\", "/");
+
+		//WinAPI
+		::CopyFileA(originStr.c_str(), pathStr.c_str(), false);
+	}
+
+	return fileName;
 }
