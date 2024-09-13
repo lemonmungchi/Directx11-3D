@@ -64,6 +64,6 @@ void StaticMeshDemo::CreateTower()
 	_obj->AddComponent(make_shared<ModelRenderer>(_shader));
 	{
 		_obj->GetModelRenderer()->SetModel(m1);
-		//_obj->GetModelRenderer()->SetPass(1);
+		_obj->GetModelRenderer()->SetPass(1);
 	}
 }

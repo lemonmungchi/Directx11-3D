@@ -3,24 +3,19 @@
   "WorkspaceRootPath": "C:\\Project\\Directx11-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\AsTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\AsTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\StaticMeshDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\StaticMeshDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\AssimpTool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\AsTypes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\AsTypes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\VertexData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\VertexData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\15. ModelDemo.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\15. ModelDemo.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -29,6 +24,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\Converter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\Converter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\StaticMeshDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\StaticMeshDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\18. NormalMappingDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\18. NormalMappingDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\AssimpTool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\AsTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|solutionrelative:AssimpTool\\AsTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\VertexData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\VertexData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBE798A2-F536-4403-BC23-0A7B07A5B3DB}|AssimpTool\\AssimpTool.vcxproj|C:\\Project\\Directx11-3D\\AssimpTool\\Converter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -59,14 +78,6 @@
       "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\MeshRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\09. MeshDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\09. MeshDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -89,6 +100,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project\\Directx11-3D\\Client\\09. MeshDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Client\\09. MeshDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,38 +112,90 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 189,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 194,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VertexData.h",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\VertexData.h",
-              "RelativeDocumentMoniker": "Engine\\VertexData.h",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\VertexData.h",
-              "RelativeToolTip": "Engine\\VertexData.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-10T13:56:48.606Z",
+              "DocumentIndex": 7,
+              "Title": "18. NormalMappingDemo.cpp",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.cpp",
+              "RelativeDocumentMoniker": "Client\\18. NormalMappingDemo.cpp",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.cpp",
+              "RelativeToolTip": "Client\\18. NormalMappingDemo.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-13T09:39:46.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "StaticMeshDemo.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\StaticMeshDemo.h",
+              "RelativeDocumentMoniker": "AssimpTool\\StaticMeshDemo.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\AssimpTool\\StaticMeshDemo.h",
+              "RelativeToolTip": "AssimpTool\\StaticMeshDemo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-13T09:37:46.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "15. ModelDemo.fx",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\15. ModelDemo.fx",
+              "RelativeDocumentMoniker": "Shaders\\15. ModelDemo.fx",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Shaders\\15. ModelDemo.fx",
+              "RelativeToolTip": "Shaders\\15. ModelDemo.fx",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-13T09:43:11.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssimpTool.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.h",
+              "RelativeDocumentMoniker": "AssimpTool\\AssimpTool.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.h",
+              "RelativeToolTip": "AssimpTool\\AssimpTool.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-10T13:11:59.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "18. NormalMappingDemo.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.h",
+              "RelativeDocumentMoniker": "Client\\18. NormalMappingDemo.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\18. NormalMappingDemo.h",
+              "RelativeToolTip": "Client\\18. NormalMappingDemo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-13T09:39:49.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AsTypes.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\AsTypes.h",
               "RelativeDocumentMoniker": "AssimpTool\\AsTypes.h",
               "ToolTip": "C:\\Project\\Directx11-3D\\AssimpTool\\AsTypes.h",
               "RelativeToolTip": "AssimpTool\\AsTypes.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-10T13:55:41.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ResourceBase.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ResourceBase.h",
               "RelativeDocumentMoniker": "Engine\\ResourceBase.h",
@@ -136,12 +203,23 @@
               "RelativeToolTip": "Engine\\ResourceBase.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-10T13:25:49.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T13:25:49.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "VertexData.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\VertexData.h",
+              "RelativeDocumentMoniker": "Engine\\VertexData.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\VertexData.h",
+              "RelativeToolTip": "Engine\\VertexData.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-10T13:56:48.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Converter.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\Converter.h",
               "RelativeDocumentMoniker": "AssimpTool\\Converter.h",
@@ -149,12 +227,11 @@
               "RelativeToolTip": "AssimpTool\\Converter.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-10T12:47:21.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T12:47:21.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Graphics.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Graphics.h",
               "RelativeDocumentMoniker": "Engine\\Graphics.h",
@@ -166,20 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AssimpTool.h",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.h",
-              "RelativeDocumentMoniker": "AssimpTool\\AssimpTool.h",
-              "ToolTip": "C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.h",
-              "RelativeToolTip": "AssimpTool\\AssimpTool.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-10T13:11:59.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Mesh.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Mesh.h",
               "RelativeDocumentMoniker": "Engine\\Mesh.h",
@@ -191,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "14. SpecularDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\14. SpecularDemo.h",
               "RelativeDocumentMoniker": "Client\\14. SpecularDemo.h",
@@ -203,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "EnginePch.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\EnginePch.h",
               "RelativeDocumentMoniker": "Engine\\EnginePch.h",
@@ -215,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "11. DepthStencilDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\11. DepthStencilDemo.h",
               "RelativeDocumentMoniker": "Client\\11. DepthStencilDemo.h",
@@ -227,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "MeshRenderer.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\MeshRenderer.h",
               "RelativeDocumentMoniker": "Engine\\MeshRenderer.h",
@@ -239,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "08. GlobalTest.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\08. GlobalTest.fx",
               "RelativeDocumentMoniker": "Shaders\\08. GlobalTest.fx",
@@ -251,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "CameraScript.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\CameraScript.h",
               "RelativeDocumentMoniker": "Client\\CameraScript.h",
@@ -263,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "09. MeshDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\09. MeshDemo.h",
               "RelativeDocumentMoniker": "Client\\09. MeshDemo.h",
@@ -275,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ResourceManager.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ResourceManager.h",
               "RelativeDocumentMoniker": "Engine\\ResourceManager.h",
@@ -287,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "GameObject.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Libraries\\Include\\Engine\\GameObject.h",
               "RelativeDocumentMoniker": "Libraries\\Include\\Engine\\GameObject.h",
@@ -300,20 +364,34 @@
           ]
         },
         {
-          "DockedWidth": 211,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 206,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AsTypes.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\AsTypes.cpp",
-              "RelativeDocumentMoniker": "AssimpTool\\AsTypes.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\AssimpTool\\AsTypes.cpp",
-              "RelativeToolTip": "AssimpTool\\AsTypes.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "StaticMeshDemo.cpp",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\StaticMeshDemo.cpp",
+              "RelativeDocumentMoniker": "AssimpTool\\StaticMeshDemo.cpp",
+              "ToolTip": "C:\\Project\\Directx11-3D\\AssimpTool\\StaticMeshDemo.cpp",
+              "RelativeToolTip": "AssimpTool\\StaticMeshDemo.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-10T13:55:43.216Z",
+              "WhenOpened": "2024-09-13T09:37:39.882Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "15. ModelDemo.fx",
+              "DocumentMoniker": "C:\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx",
+              "RelativeDocumentMoniker": "..\\..\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx",
+              "ToolTip": "C:\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx",
+              "RelativeToolTip": "..\\..\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-13T09:44:11.214Z",
               "EditorCaption": ""
             },
             {
@@ -324,27 +402,27 @@
               "RelativeDocumentMoniker": "AssimpTool\\Main.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\AssimpTool\\Main.cpp",
               "RelativeToolTip": "AssimpTool\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxUAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-10T13:21:59.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "AssimpTool.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.cpp",
               "RelativeDocumentMoniker": "AssimpTool\\AssimpTool.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\AssimpTool\\AssimpTool.cpp",
               "RelativeToolTip": "AssimpTool\\AssimpTool.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-10T13:12:05.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Converter.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\AssimpTool\\Converter.cpp",
               "RelativeDocumentMoniker": "AssimpTool\\Converter.cpp",
@@ -357,19 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ResourceManager.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ResourceManager.cpp",
-              "RelativeDocumentMoniker": "Engine\\ResourceManager.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\ResourceManager.cpp",
-              "RelativeToolTip": "Engine\\ResourceManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-29T01:50:55.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\GameObject.cpp",
               "RelativeDocumentMoniker": "Engine\\GameObject.cpp",
