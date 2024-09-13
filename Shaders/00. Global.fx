@@ -111,7 +111,16 @@ pass name                                           \
 {                                                   \
 	SetVertexShader(CompileShader(vs_5_0, vs()));   \
 	SetPixelShader(CompileShader(ps_5_0, ps()));    \
-}                  
+}      
+
+//레스터라이즈까지 포함
+#define PASS_RS_VP(name, rs, vs, ps)				\
+pass name											\
+{													\
+    SetRasterizerState(rs);							\
+    SetVertexShader(CompileShader(vs_5_0, vs()));	\
+    SetPixelShader(CompileShader(ps_5_0, ps()));	\
+}
 
 
 //////////////

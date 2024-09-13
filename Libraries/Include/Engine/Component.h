@@ -7,6 +7,7 @@ enum class ComponentType :uint8
 {
 	Transform,		//고정개수
 	MeshRenderer,
+	ModelRenderer,
 	Camera,
 	Animator,
 	//Todo..

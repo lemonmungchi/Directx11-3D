@@ -41,3 +41,5 @@ struct VertexTextureNormalTangentBlendData
 	Vec4 blendIndicies = { 0,0,0,0 };		//애니메이션
 	Vec4 blendWeights = { 0,0,0,0 };
 };
+
+using ModelVertexType = VertexTextureNormalTangentBlendData;

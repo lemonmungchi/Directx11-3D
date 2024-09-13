@@ -1,7 +1,5 @@
-c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\engine.pch
 c:\users\khc11\desktop\projects\directx11-3d\libraries\lib\engine\engine.pdb
 c:\users\khc11\desktop\projects\directx11-3d\libraries\lib\engine\engine.idb
-c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\pch.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\shader.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\resourcemanager.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\resourcebase.obj
@@ -31,13 +29,40 @@ c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\texture.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\technique.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\simplemath.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\tinyxml2.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\engine.pch
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\pch.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\modelrenderer.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\modelmesh.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\model.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\fileutils.obj
 c:\users\khc11\desktop\projects\directx11-3d\libraries\lib\engine\engine.lib
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\01. triangledemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\02. quaddemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\03. constbufferdemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\04. camerademo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\05. texturedemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\06. samplerdemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\07. heightmapdemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\08. normaldemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\09. meshdemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\10. globaltestdemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\11. depthstencildemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\12. ambientdemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\13. diffusedemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\14. speculardemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\15. emissivedemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\16. lightingdemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\17. materialdemo.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\18. normalmappingdemo.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\assimptool.obj
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\astypes.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\camerascript.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\converter.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\main.obj
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\assimptool.ilk
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\client.ilk
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\assimptool.pch
+c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\client.pch
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\vc143.idb
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\vc143.pdb
 c:\users\khc11\desktop\projects\directx11-3d\intermediate\debug\engine.vcxproj.filelistabsolute.txt

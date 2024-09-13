@@ -1,7 +1,7 @@
 #pragma once
 #include "VertexData.h"
 
-using VetexType = VertexTextureNormalTangentBlendData;
+using VertexType = VertexTextureNormalTangentBlendData;
 
 
 struct asBone
@@ -16,7 +16,7 @@ struct asMesh
 {
 	string name;
 	aiMesh* mesh;
-	vector<VetexType> vertices;
+	vector<VertexType> vertices;
 	vector<uint32> indices;
 
 	int32 boneIndex;		//계층구조

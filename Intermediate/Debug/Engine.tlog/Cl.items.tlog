@@ -1,6 +1,7 @@
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Camera.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Camera.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Component.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Component.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ConstantBuffer.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\ConstantBuffer.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\FileUtils.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\FileUtils.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Game.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Game.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\GameObject.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\GameObject.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Geometry.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Geometry.obj
@@ -12,6 +13,9 @@ C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\InputManager.cpp;C:\Users\kh
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Material.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Material.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Mesh.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Mesh.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\MeshRenderer.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\MeshRenderer.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Model.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelMesh.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\ModelMesh.obj
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelRenderer.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\ModelRenderer.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\MonoBehaviour.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\MonoBehaviour.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Pass.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\Pass.obj
 C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\pch.cpp;C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\pch.obj

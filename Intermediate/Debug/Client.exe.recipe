@@ -54,6 +54,9 @@
     <ContentFile>
       <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\14. NormalMapping.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\15. ModelDemo.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
