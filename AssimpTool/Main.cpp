@@ -16,6 +16,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	desc.clearColor = Color(0.f, 0.f, 0.f, 0.f);
 	//실행단위
 	desc.app = make_shared<StaticMeshDemo>();
+	//desc.app = make_shared<AssimpTool>();
 
 	GAME->Run(desc);
 

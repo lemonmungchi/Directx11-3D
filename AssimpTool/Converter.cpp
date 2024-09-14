@@ -108,7 +108,7 @@ void Converter::ReadMeshData(aiNode* node, int32 bone)
 
 		for (uint32 v = 0; v < srcMesh->mNumVertices; v++)
 		{
-			// Vertex
+			// Vertex - 자기자신 기준
 			VertexType vertex;
 			::memcpy(&vertex.position, &srcMesh->mVertices[v], sizeof(Vec3));
 

@@ -1,4 +1,5 @@
-﻿  C:\Project\Directx11-3D\Engine\Camera.h
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Project\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(AssimpTool.vcxproj, Client.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  C:\Project\Directx11-3D\Engine\Camera.h
   C:\Project\Directx11-3D\Engine\Component.h
   C:\Project\Directx11-3D\Engine\ConstantBuffer.h
   C:\Project\Directx11-3D\Engine\Define.h
@@ -87,6 +88,7 @@ C:\Project\Directx11-3D\Engine\FileUtils.h(1,1): warning C4819: 현재 코드 �
 C:\Project\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   ModelMesh.cpp
   ModelRenderer.cpp
+C:\Project\Directx11-3D\Engine\ModelRenderer.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.

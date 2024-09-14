@@ -21,6 +21,10 @@ void RenderManager::Init(shared_ptr<Shader> shader)
 	_materialBuffer = make_shared<ConstantBuffer<MaterialDesc>>();
 	_materialBuffer->Create();
 	_materialEffectBuffer = _shader->GetConstantBuffer("MaterialBuffer");
+
+	_boneBuffer = make_shared<ConstantBuffer<BoneDesc>>();
+	_boneBuffer->Create();
+	_boneEffectBuffer = _shader->GetConstantBuffer("BoneBuffer");
 }
 
 void RenderManager::Update()
@@ -58,4 +62,11 @@ void RenderManager::PushMaterialData(const MaterialDesc& desc)
 	_materialDesc = desc;
 	_materialBuffer->CopyData(_materialDesc);
 	_materialEffectBuffer->SetConstantBuffer(_materialBuffer->GetComPtr().Get());
+}
+
+void RenderManager::PushBoneData(const BoneDesc& desc)
+{
+	_boneDesc = desc;
+	_boneBuffer->CopyData(_boneDesc);
+	_boneEffectBuffer->SetConstantBuffer(_boneBuffer->GetComPtr().Get());
 }
