@@ -9,6 +9,7 @@
 #include "Material.h"
 #include "Model.h"
 #include "ModelRenderer.h"
+#include "ImGuiDemo.h"
 
 void StaticMeshDemo::Init()
 {
@@ -50,6 +51,7 @@ void StaticMeshDemo::Render()
 {
 
 }
+
 
 void StaticMeshDemo::CreateTower()
 {

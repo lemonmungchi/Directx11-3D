@@ -8,6 +8,14 @@ C:\Project\Directx11-3D\Engine\Geometry.cpp;C:\Project\Directx11-3D\Intermediate
 C:\Project\Directx11-3D\Engine\GeometryHelper.cpp;C:\Project\Directx11-3D\Intermediate\Debug\GeometryHelper.obj
 C:\Project\Directx11-3D\Engine\Graphics.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Graphics.obj
 C:\Project\Directx11-3D\Engine\IExecute.cpp;C:\Project\Directx11-3D\Intermediate\Debug\IExecute.obj
+C:\Project\Directx11-3D\Engine\imgui.cpp;C:\Project\Directx11-3D\Intermediate\Debug\imgui.obj
+C:\Project\Directx11-3D\Engine\ImGuiManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ImGuiManager.obj
+C:\Project\Directx11-3D\Engine\imgui_demo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\imgui_demo.obj
+C:\Project\Directx11-3D\Engine\imgui_draw.cpp;C:\Project\Directx11-3D\Intermediate\Debug\imgui_draw.obj
+C:\Project\Directx11-3D\Engine\imgui_impl_dx11.cpp;C:\Project\Directx11-3D\Intermediate\Debug\imgui_impl_dx11.obj
+C:\Project\Directx11-3D\Engine\imgui_impl_win32.cpp;C:\Project\Directx11-3D\Intermediate\Debug\imgui_impl_win32.obj
+C:\Project\Directx11-3D\Engine\imgui_tables.cpp;C:\Project\Directx11-3D\Intermediate\Debug\imgui_tables.obj
+C:\Project\Directx11-3D\Engine\imgui_widgets.cpp;C:\Project\Directx11-3D\Intermediate\Debug\imgui_widgets.obj
 C:\Project\Directx11-3D\Engine\IndexBuffer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\IndexBuffer.obj
 C:\Project\Directx11-3D\Engine\InputManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\InputManager.obj
 C:\Project\Directx11-3D\Engine\Material.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Material.obj
