@@ -1,44 +1,44 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(Engine.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Project\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(Engine.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   Converter.cpp
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\AsTypes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\Libraries\Include\Engine\FileUtils.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(129,48): warning C4267: '인수': 'size_t'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(152,49): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(152,28): warning C4267: '초기화 중': 'size_t'에서 'const uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(237,33): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\AssimpTool\AsTypes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\FileUtils.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(129,57): warning C4267: '인수': 'size_t'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(152,51): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(152,51): warning C4267: '초기화 중': 'size_t'에서 'const uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(237,35): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=uint32
           ]
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(248,34): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(248,36): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=uint32
           ]
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(256,46): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(256,48): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=uint32
           ]
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(257,58): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(260,45): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(257,85): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(260,47): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=uint32
           ]
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(261,53): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(490,12): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(533,16): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(593,47): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(261,79): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(490,35): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(533,63): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(593,49): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=uint32
           ]
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(600,48): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(600,50): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=uint32
           ]
-C:\Users\khc11\Desktop\Projects\Directx11-3D\AssimpTool\Converter.cpp(601,64): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  AssimpTool.vcxproj -> C:\Users\khc11\Desktop\Projects\Directx11-3D\Binaries\AssimpTool.exe
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(601,93): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AssimpTool.vcxproj -> C:\Project\Directx11-3D\Binaries\AssimpTool.exe

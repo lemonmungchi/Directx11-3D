@@ -88,7 +88,7 @@ void Converter::ExportMaterialData(wstring savePath)
 	WriteMaterialData(finalPath);
 }
 
-void Converter::ExportAnimationData(wstring savePath, uint32 index)
+void Converter::ExportAnimationData(wstring savePath, uint32 index /*= 0*/)
 {
 	wstring finalPath = _modelPath + savePath + L".clip";
 	assert(index < _scene->mNumAnimations);
@@ -477,12 +477,12 @@ shared_ptr<asAnimation> Converter::ReadAnimationData(aiAnimation* srcAnimation)
 //SRT추출함수
 shared_ptr<asAnimationNode> Converter::ParseAnimationNode(shared_ptr<asAnimation> animation, aiNodeAnim* srcNode)
 {
-	shared_ptr<asAnimationNode> node = make_shared<asAnimationNode>();
+	std::shared_ptr<asAnimationNode> node = make_shared<asAnimationNode>();
 	node->name = srcNode->mNodeName;
 
 	uint32 keyCount = max(max(srcNode->mNumPositionKeys, srcNode->mNumScalingKeys), srcNode->mNumRotationKeys);
 
-	for (uint32 k = 0; k > keyCount; k++)
+	for (uint32 k = 0; k < keyCount; k++)
 	{
 		asKeyframeData frameData;
 
