@@ -37,6 +37,7 @@ struct asMaterial
 
 //Animation
 
+//Skinning
 struct asBlendWeight
 {
 	//뼈 목록
@@ -109,5 +110,40 @@ struct asBoneWeights
 	using Pair = pair<int32, float>;
 	vector<Pair> boneWeights;
 
+};
+
+//Animation Clip
+
+struct asKeyframeData
+{
+	float time; 
+	//SRT
+	Vec3 scale;
+	Quaternion rotation;
+	Vec3 translation;
+};
+
+//한프레임
+struct asKeyframe
+{
+	string boneName;
+	vector<asKeyframeData> transforms;
+};
+
+
+struct asAnimation
+{
+	string name;
+	uint32 frameCount;		//몇프레임짜리
+	float frameRate;
+	float duration;
+	vector<shared_ptr<asKeyframe>> keyframes;
+};
+
+//캐시용
+struct asAnimationNode
+{
+	aiString name;
+	vector<asKeyframeData> keyframe;
 };
 
