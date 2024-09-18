@@ -2,6 +2,7 @@
 
 struct ModelBone;
 struct ModelMesh;
+struct ModelAnimation;
 
 class Model : public enable_shared_from_this<Model>
 {
@@ -13,6 +14,7 @@ public:
 	//custom -> Memory
 	void ReadMaterial(wstring filename);
 	void ReadModel(wstring filename);
+	void ReadAnimation(wstring filename);
 
 	//헬퍼함수
 	uint32 GetMaterialCount() { return static_cast<uint32>(_materials.size()); }
@@ -29,6 +31,12 @@ public:
 	vector<shared_ptr<ModelBone>>& GetBones() { return _bones; }
 	shared_ptr<ModelBone> GetBoneByIndex(uint32 index) { return (index < 0 || index >= _bones.size() ? nullptr : _bones[index]); }
 	shared_ptr<ModelBone> GetBoneByName(const wstring& name);
+
+	uint32 GetAnimationCount() { return _animations.size(); }
+	vector<shared_ptr<ModelAnimation>>& GetAnimations() { return _animations; }
+	shared_ptr<ModelAnimation> GetAnimationByIndex(UINT index) { return (index < 0 || index >= _animations.size()) ? nullptr : _animations[index]; }
+	shared_ptr<ModelAnimation> GetAnimationByName(wstring name);
+
 private:
 	//캐쉬정보 채워주기	
 	void BindCacheInfo();
@@ -42,5 +50,6 @@ private:
 	vector<shared_ptr<Material>> _materials;
 	vector<shared_ptr<ModelBone>> _bones;
 	vector<shared_ptr<ModelMesh>> _meshes;
+	vector<shared_ptr<ModelAnimation>> _animations;
 };
 

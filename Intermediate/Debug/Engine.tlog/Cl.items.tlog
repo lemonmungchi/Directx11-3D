@@ -22,6 +22,8 @@ C:\Project\Directx11-3D\Engine\Material.cpp;C:\Project\Directx11-3D\Intermediate
 C:\Project\Directx11-3D\Engine\Mesh.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Mesh.obj
 C:\Project\Directx11-3D\Engine\MeshRenderer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\MeshRenderer.obj
 C:\Project\Directx11-3D\Engine\Model.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Model.obj
+C:\Project\Directx11-3D\Engine\ModelAnimation.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ModelAnimation.obj
+C:\Project\Directx11-3D\Engine\ModelAnimator.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ModelAnimator.obj
 C:\Project\Directx11-3D\Engine\ModelMesh.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ModelMesh.obj
 C:\Project\Directx11-3D\Engine\ModelRenderer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ModelRenderer.obj
 C:\Project\Directx11-3D\Engine\MonoBehaviour.cpp;C:\Project\Directx11-3D\Intermediate\Debug\MonoBehaviour.obj
