@@ -1,174 +1,167 @@
-﻿  C:\Project\Directx11-3D\Engine\Camera.h
-  C:\Project\Directx11-3D\Engine\Component.h
-  C:\Project\Directx11-3D\Engine\ConstantBuffer.h
-  C:\Project\Directx11-3D\Engine\Define.h
-  C:\Project\Directx11-3D\Engine\EnginePch.h
-  C:\Project\Directx11-3D\Engine\FileUtils.h
-  C:\Project\Directx11-3D\Engine\Game.h
-  C:\Project\Directx11-3D\Engine\GameObject.h
-  C:\Project\Directx11-3D\Engine\Geometry.h
-  C:\Project\Directx11-3D\Engine\GeometryHelper.h
-  C:\Project\Directx11-3D\Engine\Graphics.h
-  C:\Project\Directx11-3D\Engine\IExecute.h
-  C:\Project\Directx11-3D\Engine\imconfig.h
-  C:\Project\Directx11-3D\Engine\imgui.h
-  C:\Project\Directx11-3D\Engine\ImGuiManager.h
-  C:\Project\Directx11-3D\Engine\imgui_impl_dx11.h
-  C:\Project\Directx11-3D\Engine\imgui_impl_win32.h
-  C:\Project\Directx11-3D\Engine\imgui_internal.h
-  C:\Project\Directx11-3D\Engine\imstb_rectpack.h
-  C:\Project\Directx11-3D\Engine\imstb_textedit.h
-  C:\Project\Directx11-3D\Engine\imstb_truetype.h
-  C:\Project\Directx11-3D\Engine\IndexBuffer.h
-  C:\Project\Directx11-3D\Engine\InputManager.h
-  C:\Project\Directx11-3D\Engine\Material.h
-  C:\Project\Directx11-3D\Engine\Mesh.h
-  C:\Project\Directx11-3D\Engine\MeshRenderer.h
-  C:\Project\Directx11-3D\Engine\Model.h
-  C:\Project\Directx11-3D\Engine\ModelAnimation.h
-  C:\Project\Directx11-3D\Engine\ModelAnimator.h
-  C:\Project\Directx11-3D\Engine\ModelMesh.h
-  C:\Project\Directx11-3D\Engine\ModelRenderer.h
-  C:\Project\Directx11-3D\Engine\MonoBehaviour.h
-  C:\Project\Directx11-3D\Engine\Pass.h
-  C:\Project\Directx11-3D\Engine\pch.h
-  C:\Project\Directx11-3D\Engine\RenderManager.h
-  C:\Project\Directx11-3D\Engine\ResourceBase.h
-  C:\Project\Directx11-3D\Engine\ResourceManager.h
-  C:\Project\Directx11-3D\Engine\Shader.h
-  C:\Project\Directx11-3D\Engine\SimpleMath.h
-  C:\Project\Directx11-3D\Engine\Technique.h
-  C:\Project\Directx11-3D\Engine\Texture.h
-  C:\Project\Directx11-3D\Engine\TimeManager.h
-  C:\Project\Directx11-3D\Engine\tinyxml2.h
-  C:\Project\Directx11-3D\Engine\Transform.h
-  C:\Project\Directx11-3D\Engine\Types.h
-  C:\Project\Directx11-3D\Engine\Utils.h
-  C:\Project\Directx11-3D\Engine\VertexBuffer.h
-  C:\Project\Directx11-3D\Engine\VertexData.h
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Users\khc11\Desktop\Projects\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(AssimpTool.vcxproj, Client.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Camera.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Component.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ConstantBuffer.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Define.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\EnginePch.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\FileUtils.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Game.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\GameObject.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Geometry.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\GeometryHelper.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Graphics.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\IExecute.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\imconfig.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\imgui.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ImGuiManager.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\imgui_impl_dx11.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\imgui_impl_win32.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\imgui_internal.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\imstb_rectpack.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\imstb_textedit.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\imstb_truetype.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\IndexBuffer.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\InputManager.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Material.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Mesh.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\MeshRenderer.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelAnimation.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelAnimator.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelMesh.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelRenderer.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\MonoBehaviour.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Pass.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\pch.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\RenderManager.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ResourceBase.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ResourceManager.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Shader.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\SimpleMath.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Technique.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Texture.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\TimeManager.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\tinyxml2.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Transform.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Types.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Utils.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\VertexBuffer.h
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\VertexData.h
   48개 파일이 복사되었습니다.
-  C:\Project\Directx11-3D\Engine\SimpleMath.inl
+  C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\SimpleMath.inl
   1개 파일이 복사되었습니다.
   pch.cpp
-C:\Project\Directx11-3D\Engine\Graphics.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\RenderManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\VertexData.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Component.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Transform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Mesh.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Graphics.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\RenderManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\VertexData.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Component.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Transform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Mesh.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Camera.cpp
-C:\Project\Directx11-3D\Engine\Camera.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Camera.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Component.cpp
   ConstantBuffer.cpp
   FileUtils.cpp
-C:\Project\Directx11-3D\Engine\FileUtils.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\FileUtils.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\FileUtils.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\FileUtils.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Game.cpp
-C:\Project\Directx11-3D\Engine\Game.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Game.cpp(68,33): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Project\Directx11-3D\Engine\Game.cpp(68,33): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Project\Directx11-3D\Engine\Game.cpp(68,46): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Project\Directx11-3D\Engine\Game.cpp(68,46): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Game.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Game.cpp(68,33): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Game.cpp(68,33): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Game.cpp(68,46): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Game.cpp(68,46): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   GameObject.cpp
-C:\Project\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Geometry.cpp
   GeometryHelper.cpp
-C:\Project\Directx11-3D\Engine\GeometryHelper.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\GeometryHelper.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Graphics.cpp
-C:\Project\Directx11-3D\Engine\Graphics.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Graphics.cpp(32,46): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Project\Directx11-3D\Engine\Graphics.cpp(33,47): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Graphics.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Graphics.cpp(32,46): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Graphics.cpp(33,47): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   IExecute.cpp
   ImGuiManager.cpp
   IndexBuffer.cpp
   InputManager.cpp
   Material.cpp
-C:\Project\Directx11-3D\Engine\Material.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Material.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Mesh.cpp
-C:\Project\Directx11-3D\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   MeshRenderer.cpp
-C:\Project\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Model.cpp
-C:\Project\Directx11-3D\Engine\Model.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Project\Directx11-3D\Engine\FileUtils.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.h(35,54): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\FileUtils.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   ModelAnimation.cpp
   ModelAnimator.cpp
-C:\Project\Directx11-3D\Engine\ModelAnimator.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelAnimator.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.h(35,54): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   ModelMesh.cpp
   코드를 생성하고 있습니다...
-C:\Project\Directx11-3D\Engine\Game.cpp(99): warning C4715: 'Game::WndProc': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Game.cpp(99): warning C4715: 'Game::WndProc': 모든 제어 경로에서 값을 반환하지는 않습니다.
   컴파일하고 있습니다...
   ModelRenderer.cpp
-C:\Project\Directx11-3D\Engine\ModelRenderer.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelRenderer.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Model.h(35,54): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   MonoBehaviour.cpp
   Pass.cpp
   RenderManager.cpp
-C:\Project\Directx11-3D\Engine\RenderManager.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\RenderManager.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   ResourceBase.cpp
   ResourceManager.cpp
-C:\Project\Directx11-3D\Engine\ResourceManager.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\ResourceManager.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Shader.cpp
-C:\Project\Directx11-3D\Engine\Shader.cpp(166,3): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Shader.cpp(162,26): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   SimpleMath.cpp
   Technique.cpp
   Texture.cpp
-C:\Project\Directx11-3D\Engine\Texture.cpp(23,14): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Project\Directx11-3D\Engine\Texture.cpp(24,14): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Texture.cpp(23,14): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Texture.cpp(24,14): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   TimeManager.cpp
   Transform.cpp
-C:\Project\Directx11-3D\Engine\Transform.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Project\Directx11-3D\Engine\Transform.cpp(26,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Project\Directx11-3D\Engine\Transform.cpp(31,27): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Project\Directx11-3D\Engine\Transform.cpp(33,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Project\Directx11-3D\Engine\Transform.cpp(38,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Transform.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Transform.cpp(26,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Transform.cpp(31,27): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Transform.cpp(33,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Transform.cpp(38,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Utils.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2824,53): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2728,53): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Elem=char
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)'에 대한 참조를 확인하세요.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2584,17): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)'에 대한 참조를 확인하세요.
           with
           [
-              _Iter=wchar_t *
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Iter=wchar_t *
-          ]
-C:\Project\Directx11-3D\Engine\Utils.cpp(57): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Elem=wchar_t,
-              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
-              _Alloc=std::allocator<char>
-          ]
-C:\Project\Directx11-3D\Engine\Utils.cpp(57): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Utils.cpp(57,15): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
           with
           [
               _Elem=wchar_t,
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
               _Alloc=std::allocator<char>
           ]
+C:\Users\khc11\Desktop\Projects\Directx11-3D\Engine\Utils.cpp(57,2): message : 'Utils::ToString'에서 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'에 대한 첫 번째 참조를 확인하세요.
   VertexBuffer.cpp
   VertexData.cpp
   코드를 생성하고 있습니다...
@@ -181,4 +174,4 @@ C:\Project\Directx11-3D\Engine\Utils.cpp(57): message : 컴파일되는 함수 �
   imgui_widgets.cpp
   tinyxml2.cpp
   코드를 생성하고 있습니다...
-  Engine.vcxproj -> C:\Project\Directx11-3D\Libraries\Lib\Engine\Engine.lib
+  Engine.vcxproj -> C:\Users\khc11\Desktop\Projects\Directx11-3D\Libraries\Lib\Engine\Engine.lib

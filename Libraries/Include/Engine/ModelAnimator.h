@@ -3,6 +3,15 @@
 
 class Model;
 
+struct AnimTransform
+{
+	using TransformArrayType = array<Matrix, MAX_MODEL_TRANSFORMS>;
+
+	//2차배열
+	array<TransformArrayType, MAX_MODEL_KEYFRAMES> transforms;
+	
+};
+
 class ModelAnimator : public Component
 {
 	using Super = Component;
@@ -16,6 +25,16 @@ public:
 
 	void SetModel(shared_ptr<Model> model);
 	void SetPass(uint8 pass) { _pass = pass; }
+
+private:
+	void CreateTexture();
+	void CreateAnimationTransform(uint32 index);
+
+private:
+	vector<AnimTransform> _animTransforms;
+	ComPtr<ID3D11Texture2D> _texture;
+	//Texture
+	ComPtr<ID3D11ShaderResourceView> _srv;
 
 private:
 	shared_ptr<Shader>	_shader;

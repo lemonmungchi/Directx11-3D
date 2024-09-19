@@ -3,6 +3,7 @@
 #include "Material.h"
 #include "ModelMesh.h"
 #include "Model.h"
+#include "ModelAnimation.h"
 
 ModelAnimator::ModelAnimator(shared_ptr<Shader> shader)
 	: Super(ComponentType::Animator), _shader(shader)
@@ -20,6 +21,9 @@ void ModelAnimator::Update()
 		return;
 
 	//TODO
+	if (_texture == nullptr)
+		CreateTexture();
+
 
 	//Bones -> shader
 	BoneDesc boneDesc;
@@ -65,5 +69,135 @@ void ModelAnimator::SetModel(shared_ptr<Model> model)
 	for (auto& material : materials)
 	{
 		material->SetShader(_shader);
+	}
+}
+
+void ModelAnimator::CreateTexture()
+{
+	if (_model->GetAnimationCount() == 0)
+		return;
+
+	_animTransforms.resize(_model->GetAnimationCount());
+	for (uint32 i = 0; i < _model->GetAnimationCount(); i++)
+		CreateAnimationTransform(i);
+
+	//CreateTexture
+	{
+		D3D11_TEXTURE2D_DESC desc;
+		ZeroMemory(&desc, sizeof(D3D11_TEXTURE2D_DESC));
+		desc.Width = MAX_MODEL_TRANSFORMS * 4;		//4칸으로 쪼개기
+		desc.Height = MAX_MODEL_KEYFRAMES;
+		desc.ArraySize = _model->GetAnimationCount();		//텍스처배열
+		desc.Format = DXGI_FORMAT_R32G32B32A32_FLOAT; // 16바이트
+		desc.Usage = D3D11_USAGE_IMMUTABLE;
+		desc.BindFlags = D3D11_BIND_SHADER_RESOURCE;
+		desc.MipLevels = 1;
+		desc.SampleDesc.Count = 1;
+
+		//한층
+		const uint32 dataSize = MAX_MODEL_TRANSFORMS * sizeof(Matrix);
+		//층을 프레임만큼
+		const uint32 pageSize = dataSize * MAX_MODEL_KEYFRAMES;
+		//애니메이션 개수만큼
+		void* mallocPtr = ::malloc(pageSize * _model->GetAnimationCount());
+	
+		// 파편화된 데이터를 조립한다.
+		for (uint32 c = 0; c < _model->GetAnimationCount(); c++)
+		{
+			uint32 startOffset = c * pageSize;
+
+			//포인터 연산 - ~칸씩 앞으로 가기 때문에
+			BYTE* pageStartPtr = reinterpret_cast<BYTE*>(mallocPtr) + startOffset;
+
+			
+			for (uint32 f = 0; f < MAX_MODEL_KEYFRAMES; f++)
+			{
+				void* ptr = pageStartPtr + dataSize * f;
+				::memcpy(ptr, _animTransforms[c].transforms[f].data(), dataSize);
+			}
+		}
+
+		// 리소스 만들기
+		vector<D3D11_SUBRESOURCE_DATA> subResources(_model->GetAnimationCount());
+
+		for (uint32 c = 0; c < _model->GetAnimationCount(); c++)
+		{
+			void* ptr = (BYTE*)mallocPtr + c * pageSize;
+			subResources[c].pSysMem = ptr;
+			subResources[c].SysMemPitch = dataSize;
+			subResources[c].SysMemSlicePitch = pageSize;
+		}
+
+		//텍스처 배열이 전달된다.
+		HRESULT hr = DEVICE->CreateTexture2D(&desc, subResources.data(), _texture.GetAddressOf());
+		CHECK(hr);
+
+		::free(mallocPtr);
+	
+	}
+
+	// Create SRV
+	{
+		D3D11_SHADER_RESOURCE_VIEW_DESC desc;
+		ZeroMemory(&desc, sizeof(desc));
+		desc.Format = DXGI_FORMAT_R32G32B32A32_FLOAT;
+		desc.ViewDimension = D3D11_SRV_DIMENSION_TEXTURE2DARRAY;
+		desc.Texture2DArray.MipLevels = 1;
+		desc.Texture2DArray.ArraySize = _model->GetAnimationCount();
+
+		HRESULT hr = DEVICE->CreateShaderResourceView(_texture.Get(), &desc, _srv.GetAddressOf());
+		CHECK(hr);
+	}
+}
+
+void ModelAnimator::CreateAnimationTransform(uint32 index)
+{
+	//캐싱용
+	vector<Matrix> tempAnimBoneTransforms(MAX_MODEL_TRANSFORMS, Matrix::Identity);
+
+	shared_ptr<ModelAnimation> animation = _model->GetAnimationByIndex(index);
+
+	//프레임순회
+	for (uint32 f = 0; f < animation->frameCount; f++)
+	{
+		//본 순회
+		for (uint32 b = 0; b < _model->GetBoneCount(); b++)
+		{
+			shared_ptr<ModelBone> bone = _model->GetBoneByIndex(b);
+
+			Matrix matAnimation;
+
+			shared_ptr<ModelKeyframe> frame = animation->GetKeyframe(bone->name);
+			if (frame != nullptr)
+			{
+				ModelKeyframeData& data = frame->transforms[f];
+
+				Matrix S, R, T;
+				S = Matrix::CreateScale(data.scale.x, data.scale.y, data.scale.z);
+				R = Matrix::CreateFromQuaternion(data.rotation);
+				T = Matrix::CreateTranslation(data.translation.x, data.translation.y, data.translation.z);
+			
+				matAnimation = S * R * T; 
+			}
+			else
+			{
+				matAnimation = Matrix::Identity;
+			}
+
+			// 처음 T 포즈기준
+			Matrix toRootMatrix = bone->transform;
+			Matrix invGlobal = toRootMatrix.Invert();
+
+			int32 parentIndex = bone->parentIndex;
+			
+			Matrix matParent = Matrix::Identity;
+			if(parentIndex>=0)
+				matParent = tempAnimBoneTransforms[parentIndex];
+
+			tempAnimBoneTransforms[b] = matAnimation * matParent;
+
+			//기본-> 다른자세
+			_animTransforms[index].transforms[f][b] = invGlobal * tempAnimBoneTransforms[b];
+		}
 	}
 }
