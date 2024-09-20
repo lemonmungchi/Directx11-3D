@@ -15,6 +15,63 @@ ModelAnimator::~ModelAnimator()
 {
 }
 
+//void ModelAnimator::Update()
+//{
+//	if (_model == nullptr)
+//		return;
+//
+//	//TODO
+//	if (_texture == nullptr)
+//		CreateTexture();
+//
+//	//Anim Update
+//	ImGui::InputInt("AnimIndex", &_keyframeDesc.animIndex);
+//	_keyframeDesc.animIndex %= _model->GetAnimationCount();
+//	ImGui::InputInt("CurrFrame", (int*)&_keyframeDesc.currFrame);
+//	_keyframeDesc.currFrame %= _model->GetAnimationByIndex(_keyframeDesc.animIndex)->frameCount;
+//
+//	//애니메이션 현재 프레임 정보
+//	RENDER->PushKeyframeData(_keyframeDesc);
+//
+//	//SRV를 전달
+//	_shader->GetSRV("TransformMap")->SetResource(_srv.Get());
+//
+//	//Bones -> shader
+//	BoneDesc boneDesc;
+//
+//	const uint32 boneCount = _model->GetBoneCount();
+//
+//	for (uint32 i = 0; i < boneCount; i++)
+//	{
+//		shared_ptr<ModelBone> bone = _model->GetBoneByIndex(i);
+//		boneDesc.transforms[i] = bone->transform;
+//	}
+//	RENDER->PushBoneData(boneDesc);
+//
+//	//Transform
+//	auto world = GetTransform()->GetWorldMatrix();
+//	RENDER->PushTransformData(TransformDesc{ world });
+//
+//	const auto& meshes = _model->GetMeshes();
+//	for (auto& mesh : meshes)
+//	{
+//		if (mesh->material)
+//			mesh->material->Update();
+//
+//		//BoneIndex
+//		_shader->GetScalar("BoneIndex")->SetInt(mesh->boneIndex);
+//
+//		uint32 stride = mesh->vertexBuffer->GetStride();
+//		uint32 offset = mesh->vertexBuffer->GetOffset();
+//
+//		//각 매쉬를 버퍼에 할당
+//		DC->IASetVertexBuffers(0, 1, mesh->vertexBuffer->GetComPtr().GetAddressOf(), &stride, &offset);
+//		DC->IASetIndexBuffer(mesh->indexBuffer->GetComPtr().Get(), DXGI_FORMAT_R32_UINT, 0);
+//
+//		_shader->DrawIndexed(0, _pass, mesh->indexBuffer->GetCount(), 0, 0);
+//	}
+//}
+
 void ModelAnimator::Update()
 {
 	if (_model == nullptr)
@@ -24,6 +81,33 @@ void ModelAnimator::Update()
 	if (_texture == nullptr)
 		CreateTexture();
 
+	_keyframeDesc.sumTime += DT;
+
+	shared_ptr<ModelAnimation> current = _model->GetAnimationByIndex(_keyframeDesc.animIndex);
+	if (current)
+	{
+		//30프레임이면 1/30초 마다 다음 프레임
+		float timePerFrame = 1 / (current->frameRate * _keyframeDesc.speed);
+		if (_keyframeDesc.sumTime >= timePerFrame)
+		{
+			_keyframeDesc.sumTime = 0.f;
+			_keyframeDesc.currFrame = (_keyframeDesc.currFrame + 1) % current->frameCount;
+			_keyframeDesc.nextFrame = (_keyframeDesc.currFrame + 1) % current->frameCount;
+		}
+
+		_keyframeDesc.ratio = (_keyframeDesc.sumTime / timePerFrame);
+	}
+
+	//Anim Update
+	ImGui::InputInt("AnimIndex", &_keyframeDesc.animIndex);
+	_keyframeDesc.animIndex %= _model->GetAnimationCount();
+	ImGui::InputFloat("Speed", &_keyframeDesc.speed, 0.5f, 4.f);
+
+	//애니메이션 현재 프레임 정보
+	RENDER->PushKeyframeData(_keyframeDesc);
+
+	//SRV를 전달
+	_shader->GetSRV("TransformMap")->SetResource(_srv.Get());
 
 	//Bones -> shader
 	BoneDesc boneDesc;
