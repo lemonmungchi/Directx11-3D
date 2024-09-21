@@ -113,6 +113,11 @@ RasterizerState FillModeWireFrame
     FillMode = Wireframe;
 };
 
+RasterizerState FrontCounterClockwiseTrue
+{
+    FrontCounterClockwise = true;
+};
+
 ///////////
 // Macro //
 ////////////

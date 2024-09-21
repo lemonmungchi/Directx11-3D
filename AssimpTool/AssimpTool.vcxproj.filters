@@ -42,6 +42,9 @@
     <ClCompile Include="TweenDemo.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+    <ClCompile Include="SkyDemo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CameraScript.h">
@@ -72,6 +75,9 @@
       <Filter>Game</Filter>
     </ClInclude>
     <ClInclude Include="TweenDemo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDemo.h">
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
