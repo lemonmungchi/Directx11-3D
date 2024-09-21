@@ -1,4 +1,11 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Project\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(Engine.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Project\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(Client.vcxproj, Engine.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  pch.cpp
+C:\Project\Directx11-3D\Libraries\Include\Engine\Graphics.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\RenderManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\VertexData.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Component.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Transform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Mesh.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   AnimationDemo.cpp
 C:\Project\Directx11-3D\Libraries\Include\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Libraries\Include\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -7,4 +14,87 @@ C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(1,1): warning C4819: �
 C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Project\Directx11-3D\Libraries\Include\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Libraries\Include\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  AssimpTool.cpp
+C:\Project\Directx11-3D\AssimpTool\AsTypes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  AsTypes.cpp
+C:\Project\Directx11-3D\AssimpTool\AsTypes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CameraScript.cpp
+  Converter.cpp
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\AssimpTool\AsTypes.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\FileUtils.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(129,57): warning C4267: '인수': 'size_t'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(152,51): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(152,51): warning C4267: '초기화 중': 'size_t'에서 'const uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(237,35): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=uint32
+          ]
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(248,36): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=uint32
+          ]
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(256,48): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=uint32
+          ]
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(257,85): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(260,47): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=uint32
+          ]
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(261,79): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(490,35): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(533,63): warning C4267: '초기화 중': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(593,49): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=uint32
+          ]
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(600,50): warning C4267: '인수': 'size_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=uint32
+          ]
+C:\Project\Directx11-3D\AssimpTool\Converter.cpp(601,93): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ImGuiDemo.cpp
+C:\Project\Directx11-3D\Libraries\Include\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Libraries\Include\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Main.cpp
+C:\Project\Directx11-3D\AssimpTool\Main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  StaticMeshDemo.cpp
+C:\Project\Directx11-3D\Libraries\Include\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Libraries\Include\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  TweenDemo.cpp
+C:\Project\Directx11-3D\Libraries\Include\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Libraries\Include\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...
+DirectXTex_debug.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexImage.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(DirectXTexDDS.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexDDS.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(DirectXTexD3D11.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexD3D11.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(DirectXTexWIC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexWIC.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(DirectXTexUtil.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexUtil.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(DirectXTexConvert.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexConvert.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(DirectXTexMipMaps.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexMipMaps.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(DirectXTexCompress.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexCompress.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(BC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(BC.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(BC4BC5.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(BC4BC5.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_debug.lib(BC6HBC7.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(BC6HBC7.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
   AssimpTool.vcxproj -> C:\Project\Directx11-3D\Binaries\AssimpTool.exe

@@ -163,5 +163,8 @@
     <FxCompile Include="..\Shaders\16. AnimationDemo.fx">
       <Filter>Shaders\Week3</Filter>
     </FxCompile>
+    <FxCompile Include="..\Shaders\17. TweenDemo.fx">
+      <Filter>Shaders\Week3</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
