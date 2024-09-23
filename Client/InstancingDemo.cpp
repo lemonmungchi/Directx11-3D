@@ -41,7 +41,7 @@ void InstancingDemo::Init()
 		_material = material;
 	}
 
-	for (int32 i = 0; i < 10000; i++)
+	for (int32 i = 0; i < 100000; i++)
 	{
 		auto obj = make_shared<GameObject>();
 		obj->GetOrAddTransform()->SetPosition(Vec3(rand() % 100, 0, rand() % 100));
@@ -61,7 +61,7 @@ void InstancingDemo::Init()
 
 	RENDER->Init(_shader);
 
-	// INSTANCING
+	 INSTANCING
 	_instanceBuffer = make_shared<VertexBuffer>();
 
 	for (auto& obj : _objs)
@@ -88,10 +88,22 @@ void InstancingDemo::Update()
 		RENDER->PushLightData(lightDesc);
 	}
 
-	for (auto& obj : _objs)
+	/*for (auto& obj : _objs)
 	{
 		obj->Update();
-	}
+	}*/
+
+	_material->Update();
+
+	//auto world = GetTransform()->GetWorldMatrix();
+	//RENDER->PushTransformData(TransformDesc{ world });
+
+	_mesh->GetVertexBuffer()->PushData();
+	_instanceBuffer->PushData();
+	_mesh->GetIndexBuffer()->PushData();
+
+	//_shader->DrawIndexed(0, 0, _mesh->GetIndexBuffer()->GetCount(), 0, 0);
+	_shader->DrawIndexedInstanced(0, 0, _mesh->GetIndexBuffer()->GetCount(), _objs.size());
 }
 
 void InstancingDemo::Render()

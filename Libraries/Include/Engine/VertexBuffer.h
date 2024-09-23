@@ -10,6 +10,7 @@ public:
 	uint32 GetStride() { return _stride; }
 	uint32 GetOffset() { return _offset; }
 	uint32 GetCount() { return _count; }
+	uint32 GetSlot() { return _slot; }
 
 	template<typename T>
 	void Create(const vector<T>& vertices, uint32 slot = 0, bool cpuWrite = false, bool gpuWrite = false)

@@ -8,6 +8,7 @@ struct VS_IN
     float3 normal : NORMAL;
     float3 tangent : TANGENT;
 	// INSTANCING
+    matrix world : INST;
 };
 
 struct VS_OUT
@@ -18,11 +19,25 @@ struct VS_OUT
     float3 normal : NORMAL;
 };
 
+//VS_OUT VS(VS_IN input)
+//{
+//    VS_OUT output;
+
+//    output.position = mul(input.position, W);
+//    output.worldPosition = output.position;
+//    output.position = mul(output.position, VP);
+//    output.uv = input.uv;
+//    output.normal = input.normal;
+
+//    return output;
+//}
+
 VS_OUT VS(VS_IN input)
 {
     VS_OUT output;
 
-    output.position = mul(input.position, W);
+    //물체마다 World 가져오기
+    output.position = mul(input.position, input.world); // W
     output.worldPosition = output.position;
     output.position = mul(output.position, VP);
     output.uv = input.uv;
