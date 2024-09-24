@@ -18,6 +18,8 @@ C:\Project\Directx11-3D\Engine\imgui_tables.cpp;C:\Project\Directx11-3D\Intermed
 C:\Project\Directx11-3D\Engine\imgui_widgets.cpp;C:\Project\Directx11-3D\Intermediate\Debug\imgui_widgets.obj
 C:\Project\Directx11-3D\Engine\IndexBuffer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\IndexBuffer.obj
 C:\Project\Directx11-3D\Engine\InputManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\InputManager.obj
+C:\Project\Directx11-3D\Engine\InstancingBuffer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\InstancingBuffer.obj
+C:\Project\Directx11-3D\Engine\InstancingManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\InstancingManager.obj
 C:\Project\Directx11-3D\Engine\Material.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Material.obj
 C:\Project\Directx11-3D\Engine\Mesh.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Mesh.obj
 C:\Project\Directx11-3D\Engine\MeshRenderer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\MeshRenderer.obj

@@ -22,12 +22,14 @@
     <ClInclude Include="CameraScript.h" />
     <ClInclude Include="InstancingDemo.h" />
     <ClInclude Include="Main.h" />
+    <ClInclude Include="MeshInstancingDemo.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CameraScript.cpp" />
     <ClCompile Include="InstancingDemo.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MeshInstancingDemo.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
@@ -64,6 +66,7 @@
     <FxCompile Include="..\Shaders\17. TweenDemo.fx" />
     <FxCompile Include="..\Shaders\18. SkyDemo.fx" />
     <FxCompile Include="..\Shaders\19. InstancingDemo.fx" />
+    <FxCompile Include="..\Shaders\20. MeshInstancingDemo.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

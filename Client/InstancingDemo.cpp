@@ -61,7 +61,7 @@ void InstancingDemo::Init()
 
 	RENDER->Init(_shader);
 
-	 INSTANCING
+	 //INSTANCING
 	_instanceBuffer = make_shared<VertexBuffer>();
 
 	for (auto& obj : _objs)
