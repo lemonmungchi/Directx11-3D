@@ -48,6 +48,9 @@
     <ClCompile Include="MeshInstancingDemo.cpp">
       <Filter>Game\Week3</Filter>
     </ClCompile>
+    <ClCompile Include="ModelInstancingDemo.cpp">
+      <Filter>Game\Week3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -63,6 +66,9 @@
       <Filter>Game\Week3</Filter>
     </ClInclude>
     <ClInclude Include="MeshInstancingDemo.h">
+      <Filter>Game\Week3</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelInstancingDemo.h">
       <Filter>Game\Week3</Filter>
     </ClInclude>
   </ItemGroup>
@@ -131,6 +137,9 @@
       <Filter>Shaders\Week3</Filter>
     </FxCompile>
     <FxCompile Include="..\Shaders\20. MeshInstancingDemo.fx">
+      <Filter>Shaders\Week3</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\21. ModelInstancingDemo.fx">
       <Filter>Shaders\Week3</Filter>
     </FxCompile>
   </ItemGroup>

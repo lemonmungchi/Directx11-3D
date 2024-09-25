@@ -72,6 +72,9 @@
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\20. MeshInstancingDemo.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\21. ModelInstancingDemo.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
