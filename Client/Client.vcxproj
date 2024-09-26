@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AnimInstancingDemo.h" />
     <ClInclude Include="CameraScript.h" />
     <ClInclude Include="InstancingDemo.h" />
     <ClInclude Include="Main.h" />
@@ -27,6 +28,7 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AnimInstancingDemo.cpp" />
     <ClCompile Include="CameraScript.cpp" />
     <ClCompile Include="InstancingDemo.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -70,6 +72,7 @@
     <FxCompile Include="..\Shaders\19. InstancingDemo.fx" />
     <FxCompile Include="..\Shaders\20. MeshInstancingDemo.fx" />
     <FxCompile Include="..\Shaders\21. ModelInstancingDemo.fx" />
+    <FxCompile Include="..\Shaders\22. AnimInstancingDemo.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

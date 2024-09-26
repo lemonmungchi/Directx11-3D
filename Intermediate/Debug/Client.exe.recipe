@@ -75,6 +75,9 @@
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\21. ModelInstancingDemo.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\22. AnimInstancingDemo.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
