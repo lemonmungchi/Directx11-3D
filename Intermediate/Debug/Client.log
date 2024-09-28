@@ -1,92 +1,12 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Project\Directx11-3D\Intermediate\Debug\)에 다른 프로젝트(Engine.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\00. Global.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\00. Light.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\01. Triangle.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\02. Quad.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\03. ConstBuffer.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\04. Texture.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\05. Sampler.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\06. Terrain.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\07. Normal.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\08. GlobalTest.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\09. Lighting_Ambient.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\10. Lighting_Diffuse.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-C:\Project\Directx11-3D\Shaders\11. Lighting_Specular.fx(13,5-42): warning X3206: implicit truncation of vector type
-C:\Project\Directx11-3D\Shaders\11. Lighting_Specular.fx(9,14-41): warning X3578: Output value 'VS' is not completely initialized
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\11. Lighting_Specular.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-C:\Project\Directx11-3D\Shaders\12. Lighting_Emissive.fx(11,5-42): warning X3206: implicit truncation of vector type
-C:\Project\Directx11-3D\Shaders\12. Lighting_Emissive.fx(7,14-41): warning X3578: Output value 'VS' is not completely initialized
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\12. Lighting_Emissive.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-C:\Project\Directx11-3D\Shaders\13. Lighting.fx(23,11-75): warning X3206: implicit truncation of vector type
-C:\Project\Directx11-3D\Shaders\13. Lighting.fx(5,14-41): warning X3578: Output value 'VS' is not completely initialized
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\13. Lighting.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\14. NormalMapping.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\15. ModelDemo.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\16. AnimationDemo.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\17. TweenDemo.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\18. SkyDemo.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-C:\Project\Directx11-3D\Shaders\19. InstancingDemo.fx(41,5-42): warning X3206: implicit truncation of vector type
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\19. InstancingDemo.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-C:\Project\Directx11-3D\Shaders\20. MeshInstancingDemo.fx(42,5-42): warning X3206: implicit truncation of vector type
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\20. MeshInstancingDemo.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-C:\Project\Directx11-3D\Shaders\21. ModelInstancingDemo.fx(42,5-42): warning X3206: implicit truncation of vector type
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\21. ModelInstancingDemo.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-C:\Project\Directx11-3D\Shaders\22. AnimInstancingDemo.fx(140,5-42): warning X3206: implicit truncation of vector type
-  
-  compilation object save succeeded; see C:\Project\Directx11-3D\Binaries\22. AnimInstancingDemo.cso
   pch.cpp
+C:\Project\Directx11-3D\Libraries\Include\Engine\EnginePch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   The contents of <optional> are available only with C++17 or later.
 C:\Project\Directx11-3D\Libraries\Include\Engine\Graphics.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Libraries\Include\Engine\RenderManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Libraries\Include\Engine\InstancingManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Libraries\Include\Engine\InstancingBuffer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Scene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Libraries\Include\Engine\VertexData.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Libraries\Include\Engine\Component.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Libraries\Include\Engine\Transform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -136,6 +56,34 @@ C:\Project\Directx11-3D\Libraries\Include\Engine\ModelRenderer.h(1,1): warning C
 C:\Project\Directx11-3D\Libraries\Include\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Client\ModelInstancingDemo.cpp(36,70): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Project\Directx11-3D\Client\ModelInstancingDemo.cpp(36,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RenderDemo.cpp
+C:\Project\Directx11-3D\Libraries\Include\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Libraries\Include\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Client\RenderDemo.cpp(39,70): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\RenderDemo.cpp(39,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\RenderDemo.cpp(57,70): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\RenderDemo.cpp(57,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\RenderDemo.cpp(86,75): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\RenderDemo.cpp(86,58): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SceneDemo.cpp
+C:\Project\Directx11-3D\Libraries\Include\Engine\GeometryHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Libraries\Include\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Libraries\Include\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Client\SceneDemo.cpp(56,70): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\SceneDemo.cpp(56,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\SceneDemo.cpp(74,70): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\SceneDemo.cpp(74,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\SceneDemo.cpp(103,75): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Client\SceneDemo.cpp(103,58): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
 DirectXTex_debug.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexImage.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
 DirectXTex_debug.lib(DirectXTexWIC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_debug.lib(DirectXTexWIC.obj)' 또는 'C:\Project\Directx11-3D\Binaries\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.

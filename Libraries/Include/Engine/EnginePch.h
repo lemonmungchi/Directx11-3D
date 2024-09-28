@@ -12,6 +12,8 @@
 #include <vector>
 #include <list>
 #include <map>
+#include <set>
+#include <unordered_set>		//해시기반
 #include <unordered_map>
 #include <algorithm>
 using namespace std;
@@ -69,6 +71,7 @@ using namespace Microsoft::WRL;
 #include "RenderManager.h"
 #include "InstancingManager.h"
 #include "ImGuiManager.h"
+#include "SceneManager.h"
 
 
 // Engine

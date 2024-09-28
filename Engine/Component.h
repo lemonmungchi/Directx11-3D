@@ -3,15 +3,16 @@
 class GameObject;
 class Transform;
 
-enum class ComponentType :uint8
+enum class ComponentType : uint8
 {
-	Transform,		//고정개수
+	Transform,
 	MeshRenderer,
 	ModelRenderer,
 	Camera,
 	Animator,
-	//Todo..
-	Script,		//동적개수
+	Light,
+	// ...
+	Script,
 
 	End,
 };

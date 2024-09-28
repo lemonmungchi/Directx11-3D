@@ -13,6 +13,9 @@
       <FullPath>C:\Project\Directx11-3D\Binaries\00. Light.cso</FullPath>
     </ContentFile>
     <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\00. Render.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\01. Triangle.cso</FullPath>
     </ContentFile>
     <ContentFile>
@@ -77,6 +80,9 @@
     </ContentFile>
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\22. AnimInstancingDemo.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\23. RenderDemo.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
