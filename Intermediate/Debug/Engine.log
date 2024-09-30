@@ -36,6 +36,7 @@
   C:\Project\Directx11-3D\Engine\MonoBehaviour.h
   C:\Project\Directx11-3D\Engine\Pass.h
   C:\Project\Directx11-3D\Engine\pch.h
+  C:\Project\Directx11-3D\Engine\RawBuffer.h
   C:\Project\Directx11-3D\Engine\RenderManager.h
   C:\Project\Directx11-3D\Engine\ResourceBase.h
   C:\Project\Directx11-3D\Engine\ResourceManager.h
@@ -52,7 +53,7 @@
   C:\Project\Directx11-3D\Engine\Utils.h
   C:\Project\Directx11-3D\Engine\VertexBuffer.h
   C:\Project\Directx11-3D\Engine\VertexData.h
-  53개 파일이 복사되었습니다.
+  54개 파일이 복사되었습니다.
   C:\Project\Directx11-3D\Engine\SimpleMath.inl
   1개 파일이 복사되었습니다.
   pch.cpp
@@ -138,6 +139,9 @@ C:\Project\Directx11-3D\Engine\Model.h(1,1): warning C4819: 현재 코드 페이
 C:\Project\Directx11-3D\Engine\Model.h(35,29): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   MonoBehaviour.cpp
   Pass.cpp
+  RawBuffer.cpp
+C:\Project\Directx11-3D\Engine\RawBuffer.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\RawBuffer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   RenderManager.cpp
 C:\Project\Directx11-3D\Engine\RenderManager.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -191,6 +195,8 @@ C:\Project\Directx11-3D\Engine\Utils.cpp(57): message : 컴파일되는 함수 �
               _Alloc=std::allocator<char>
           ]
   VertexBuffer.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
   VertexData.cpp
   코드를 생성하고 있습니다...
   imgui.cpp

@@ -1,8 +1,16 @@
 #pragma once
 #include "IExecute.h"
 
-class RenderDemo : public IExecute
+class RawBufferDemo : public IExecute
 {
+	struct Output
+	{
+		uint32 groupID[3];
+		uint32 groupThreadID[3];
+		uint32 dispatchThreadID[3];
+		uint32 groupIndex;
+	};
+
 public:
 	void Init() override;
 	void Update() override;
@@ -10,9 +18,6 @@ public:
 
 private:
 	shared_ptr<Shader> _shader;
-	shared_ptr<GameObject> _camera;
-	vector<shared_ptr<GameObject>> _objs;
 
-private:
 };
 

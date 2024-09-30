@@ -1,12 +1,8 @@
 #include "pch.h"
 #include "Main.h"
 #include "Engine/Game.h"
-#include "InstancingDemo.h"
-#include "MeshInstancingDemo.h"
-#include "ModelInstancingDemo.h"
-#include "AnimInstancingDemo.h"
-#include "RenderDemo.h"
 #include "SceneDemo.h"
+#include "RawBufferDemo.h"
 
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
@@ -20,7 +16,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	desc.height = 600;
 	desc.clearColor = Color(0.f, 0.f, 0.f, 0.f);
 	//실행단위
-	desc.app = make_shared<SceneDemo>();
+	desc.app = make_shared<RawBufferDemo>();
 
 	GAME->Run(desc);
 

@@ -1,9 +1,5 @@
-C:\Project\Directx11-3D\Client\AnimInstancingDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\AnimInstancingDemo.obj
 C:\Project\Directx11-3D\Client\CameraScript.cpp;C:\Project\Directx11-3D\Intermediate\Debug\CameraScript.obj
-C:\Project\Directx11-3D\Client\InstancingDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\InstancingDemo.obj
 C:\Project\Directx11-3D\Client\Main.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Main.obj
-C:\Project\Directx11-3D\Client\MeshInstancingDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\MeshInstancingDemo.obj
-C:\Project\Directx11-3D\Client\ModelInstancingDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ModelInstancingDemo.obj
 C:\Project\Directx11-3D\Client\pch.cpp;C:\Project\Directx11-3D\Intermediate\Debug\pch.obj
-C:\Project\Directx11-3D\Client\RenderDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\RenderDemo.obj
+C:\Project\Directx11-3D\Client\RawBufferDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\RawBufferDemo.obj
 C:\Project\Directx11-3D\Client\SceneDemo.cpp;C:\Project\Directx11-3D\Intermediate\Debug\SceneDemo.obj
