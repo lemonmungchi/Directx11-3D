@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Project\\Directx11-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\RawBufferDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\RawBufferDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\25. GroupDemo.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\25. GroupDemo.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\RawBufferDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\RawBufferDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\24. RawBufferDemo.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\24. RawBufferDemo.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\GroupDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\GroupDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\GroupDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\GroupDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\RawBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\RawBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\RawBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -86,10 +90,6 @@
       "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Shaders\\08. GlobalTest.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Shaders\\08. GlobalTest.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project\\Directx11-3D\\Libraries\\Include\\Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Libraries\\Include\\Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -111,6 +111,10 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\utility||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project\\Directx11-3D\\Shaders\\08. GlobalTest.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shaders\\08. GlobalTest.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -119,38 +123,37 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 203,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 195,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RawBufferDemo.h",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\RawBufferDemo.h",
-              "RelativeDocumentMoniker": "Client\\RawBufferDemo.h",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\RawBufferDemo.h",
-              "RelativeToolTip": "Client\\RawBufferDemo.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-30T11:25:40.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "24. RawBufferDemo.fx",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\24. RawBufferDemo.fx",
-              "RelativeDocumentMoniker": "Shaders\\24. RawBufferDemo.fx",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Shaders\\24. RawBufferDemo.fx",
-              "RelativeToolTip": "Shaders\\24. RawBufferDemo.fx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-30T11:28:51.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GroupDemo.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\GroupDemo.h",
+              "RelativeDocumentMoniker": "Client\\GroupDemo.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\GroupDemo.h",
+              "RelativeToolTip": "Client\\GroupDemo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T10:48:17.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "25. GroupDemo.fx",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\25. GroupDemo.fx",
+              "RelativeDocumentMoniker": "Shaders\\25. GroupDemo.fx",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Shaders\\25. GroupDemo.fx",
+              "RelativeToolTip": "Shaders\\25. GroupDemo.fx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-01T11:14:44.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RawBuffer.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\RawBuffer.h",
               "RelativeDocumentMoniker": "Engine\\RawBuffer.h",
@@ -158,12 +161,11 @@
               "RelativeToolTip": "Engine\\RawBuffer.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-30T11:07:00.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T11:07:00.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Light.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Light.h",
               "RelativeDocumentMoniker": "Engine\\Light.h",
@@ -175,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "23. RenderDemo.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\23. RenderDemo.fx",
               "RelativeDocumentMoniker": "Shaders\\23. RenderDemo.fx",
@@ -187,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Scene.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Scene.h",
               "RelativeDocumentMoniker": "Engine\\Scene.h",
@@ -199,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ModelAnimator.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ModelAnimator.h",
               "RelativeDocumentMoniker": "Engine\\ModelAnimator.h",
@@ -211,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "InstancingManager.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\InstancingManager.h",
               "RelativeDocumentMoniker": "Engine\\InstancingManager.h",
@@ -247,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "08. GlobalTest.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\08. GlobalTest.fx",
               "RelativeDocumentMoniker": "Shaders\\08. GlobalTest.fx",
@@ -283,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ResourceManager.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ResourceManager.h",
               "RelativeDocumentMoniker": "Engine\\ResourceManager.h",
@@ -308,25 +310,36 @@
           ]
         },
         {
-          "DockedWidth": 197,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 205,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RawBufferDemo.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\RawBufferDemo.cpp",
-              "RelativeDocumentMoniker": "Client\\RawBufferDemo.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\RawBufferDemo.cpp",
-              "RelativeToolTip": "Client\\RawBufferDemo.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "DocumentIndex": 5,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Game.cpp",
+              "RelativeDocumentMoniker": "Engine\\Game.cpp",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Game.cpp",
+              "RelativeToolTip": "Engine\\Game.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-30T11:25:40.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T11:32:51.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "GroupDemo.cpp",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\GroupDemo.cpp",
+              "RelativeDocumentMoniker": "Client\\GroupDemo.cpp",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Client\\GroupDemo.cpp",
+              "RelativeToolTip": "Client\\GroupDemo.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-01T10:48:31.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RawBuffer.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\RawBuffer.cpp",
               "RelativeDocumentMoniker": "Engine\\RawBuffer.cpp",
@@ -334,12 +347,11 @@
               "RelativeToolTip": "Engine\\RawBuffer.cpp",
               "ViewState": "AQIAAGEAAAAAAAAAAADwv2sAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-30T11:07:06.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T11:07:06.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Scene.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Scene.cpp",
               "RelativeDocumentMoniker": "Engine\\Scene.cpp",
@@ -351,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Component.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Component.cpp",
               "RelativeDocumentMoniker": "Engine\\Component.cpp",
@@ -363,20 +375,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\Main.cpp",
               "RelativeDocumentMoniker": "Client\\Main.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\Client\\Main.cpp",
               "RelativeToolTip": "Client\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-24T01:59:02.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ModelAnimator.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ModelAnimator.cpp",
               "RelativeDocumentMoniker": "Engine\\ModelAnimator.cpp",
@@ -388,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "InstancingManager.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\InstancingManager.cpp",
               "RelativeDocumentMoniker": "Engine\\InstancingManager.cpp",
@@ -412,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ModelRenderer.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ModelRenderer.cpp",
               "RelativeDocumentMoniker": "Engine\\ModelRenderer.cpp",
@@ -424,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "InstancingBuffer.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\InstancingBuffer.cpp",
               "RelativeDocumentMoniker": "Engine\\InstancingBuffer.cpp",
@@ -436,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Model.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Model.cpp",
               "RelativeDocumentMoniker": "Engine\\Model.cpp",
@@ -448,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ImGuiManager.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ImGuiManager.cpp",
               "RelativeDocumentMoniker": "Engine\\ImGuiManager.cpp",
@@ -460,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "15. ModelDemo.fx",
               "DocumentMoniker": "C:\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx",
               "RelativeDocumentMoniker": "..\\..\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx",

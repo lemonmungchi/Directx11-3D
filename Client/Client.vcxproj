@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CameraScript.h" />
+    <ClInclude Include="GroupDemo.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="RawBufferDemo.h" />
@@ -27,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CameraScript.cpp" />
+    <ClCompile Include="GroupDemo.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -41,6 +43,7 @@
     <FxCompile Include="..\Shaders\00. Render.fx" />
     <FxCompile Include="..\Shaders\23. RenderDemo.fx" />
     <FxCompile Include="..\Shaders\24. RawBufferDemo.fx" />
+    <FxCompile Include="..\Shaders\25. GroupDemo.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

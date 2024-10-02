@@ -24,7 +24,7 @@ void CS(ComputeInput input)
     Output.Store3(outAddress + 0, input.groupID);
     Output.Store3(outAddress + 12, input.groupThreadID);
     Output.Store3(outAddress + 24, input.dispatchThreadID);
-    Output.Store3(outAddress + 36, input.groupIndex);
+    Output.Store(outAddress + 36, input.groupIndex);
 }
 
 
