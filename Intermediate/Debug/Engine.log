@@ -46,6 +46,7 @@
   C:\Project\Directx11-3D\Engine\SimpleMath.h
   C:\Project\Directx11-3D\Engine\Technique.h
   C:\Project\Directx11-3D\Engine\Texture.h
+  C:\Project\Directx11-3D\Engine\TextureBuffer.h
   C:\Project\Directx11-3D\Engine\TimeManager.h
   C:\Project\Directx11-3D\Engine\tinyxml2.h
   C:\Project\Directx11-3D\Engine\Transform.h
@@ -53,7 +54,7 @@
   C:\Project\Directx11-3D\Engine\Utils.h
   C:\Project\Directx11-3D\Engine\VertexBuffer.h
   C:\Project\Directx11-3D\Engine\VertexData.h
-  54개 파일이 복사되었습니다.
+  55개 파일이 복사되었습니다.
   C:\Project\Directx11-3D\Engine\SimpleMath.inl
   1개 파일이 복사되었습니다.
   pch.cpp
@@ -155,8 +156,11 @@ C:\Project\Directx11-3D\Engine\Shader.cpp(166,3): warning C4267: '인수': 'size
   SimpleMath.cpp
   Technique.cpp
   Texture.cpp
+C:\Project\Directx11-3D\Engine\Texture.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Texture.cpp(23,14): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Project\Directx11-3D\Engine\Texture.cpp(24,14): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TextureBuffer.cpp
+C:\Project\Directx11-3D\Engine\TextureBuffer.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   TimeManager.cpp
   Transform.cpp
 C:\Project\Directx11-3D\Engine\Transform.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -194,9 +198,9 @@ C:\Project\Directx11-3D\Engine\Utils.cpp(57): message : 컴파일되는 함수 �
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
               _Alloc=std::allocator<char>
           ]
-  VertexBuffer.cpp
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
+  VertexBuffer.cpp
   VertexData.cpp
   코드를 생성하고 있습니다...
   imgui.cpp

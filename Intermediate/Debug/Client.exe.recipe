@@ -24,6 +24,9 @@
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\25. GroupDemo.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\26. TextureBufferDemo.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />

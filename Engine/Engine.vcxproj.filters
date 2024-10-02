@@ -207,6 +207,9 @@
     <ClInclude Include="RawBuffer.h">
       <Filter>05. ComputeShader\Buffer</Filter>
     </ClInclude>
+    <ClInclude Include="TextureBuffer.h">
+      <Filter>05. ComputeShader\Buffer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -357,6 +360,9 @@
       <Filter>02. Managers</Filter>
     </ClCompile>
     <ClCompile Include="RawBuffer.cpp">
+      <Filter>05. ComputeShader\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBuffer.cpp">
       <Filter>05. ComputeShader\Buffer</Filter>
     </ClCompile>
   </ItemGroup>
