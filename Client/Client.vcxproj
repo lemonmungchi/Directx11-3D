@@ -25,6 +25,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="RawBufferDemo.h" />
     <ClInclude Include="SceneDemo.h" />
+    <ClInclude Include="StructuredBufferDemo.h" />
     <ClInclude Include="TextureBufferDemo.h" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +38,7 @@
     </ClCompile>
     <ClCompile Include="RawBufferDemo.cpp" />
     <ClCompile Include="SceneDemo.cpp" />
+    <ClCompile Include="StructuredBufferDemo.cpp" />
     <ClCompile Include="TextureBufferDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -47,6 +49,7 @@
     <FxCompile Include="..\Shaders\24. RawBufferDemo.fx" />
     <FxCompile Include="..\Shaders\25. GroupDemo.fx" />
     <FxCompile Include="..\Shaders\26. TextureBufferDemo.fx" />
+    <FxCompile Include="..\Shaders\27. StructuredBufferDemo.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

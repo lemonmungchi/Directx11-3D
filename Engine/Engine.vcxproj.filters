@@ -210,6 +210,9 @@
     <ClInclude Include="TextureBuffer.h">
       <Filter>05. ComputeShader\Buffer</Filter>
     </ClInclude>
+    <ClInclude Include="StructuredBuffer.h">
+      <Filter>05. ComputeShader\Buffer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -363,6 +366,9 @@
       <Filter>05. ComputeShader\Buffer</Filter>
     </ClCompile>
     <ClCompile Include="TextureBuffer.cpp">
+      <Filter>05. ComputeShader\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="StructuredBuffer.cpp">
       <Filter>05. ComputeShader\Buffer</Filter>
     </ClCompile>
   </ItemGroup>
