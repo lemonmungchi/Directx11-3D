@@ -5,6 +5,7 @@
 #include "Mesh.h"
 #include "Shader.h"
 #include "Material.h"
+#include "Light.h"
 
 MeshRenderer::MeshRenderer() : Super(ComponentType::MeshRenderer)
 {
@@ -16,29 +17,6 @@ MeshRenderer::~MeshRenderer()
 
 }
 
-
-//void MeshRenderer::Update()
-//{ 
-//	if (_mesh == nullptr || _material == nullptr)
-//		return;
-//
-//	auto shader = _material->GetShader();
-//	if (shader == nullptr) return;
-//
-//	_material->Update();
-//
-//	auto world = GetTransform()->GetWorldMatrix();
-//	RENDER->PushTransformData(TransformDesc{ world });
-//
-//	uint32 stride = _mesh->GetVertexBuffer()->GetStride();
-//	uint32 offset = _mesh->GetVertexBuffer()->GetOffset();
-//
-//	DC->IASetVertexBuffers(0, 1, _mesh->GetVertexBuffer()->GetComPtr().GetAddressOf(), &stride, &offset);
-//	DC->IASetIndexBuffer(_mesh->GetIndexBuffer()->GetComPtr().Get(), DXGI_FORMAT_R32_UINT, 0);
-//
-//	shader->DrawIndexed(0, 0, _mesh->GetIndexBuffer()->GetCount(), 0, 0);
-//}
-
 void MeshRenderer::RenderInstancing(shared_ptr<class InstancingBuffer>& buffer)
 {
 	if (_mesh == nullptr || _material == nullptr)
@@ -47,6 +25,14 @@ void MeshRenderer::RenderInstancing(shared_ptr<class InstancingBuffer>& buffer)
 	auto shader = _material->GetShader();
 	if (shader == nullptr)
 		return;
+
+	// GlobalData
+	shader->PushGlobalData(Camera::S_MatView, Camera::S_MatProjection);
+
+	// Light
+	auto lightObj = SCENE->GetCurrentScene()->GetLight();
+	if (lightObj)
+		shader->PushLightData(lightObj->GetLight()->GetLightDesc());
 
 	// Light
 	_material->Update();

@@ -19,7 +19,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	desc.height = 600;
 	desc.clearColor = Color(0.f, 0.f, 0.f, 0.f);
 	//실행단위
-	desc.app = make_shared<StructuredBufferDemo>();
+	desc.app = make_shared<TextureBufferDemo>();
 
 	GAME->Run(desc);
 

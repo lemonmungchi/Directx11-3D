@@ -3,6 +3,8 @@
 #include "Material.h"
 #include "ModelMesh.h"
 #include "Model.h"
+#include "Camera.h"
+#include "Light.h"
 
 ModelRenderer::ModelRenderer(shared_ptr<Shader> shader)
 	: Super(ComponentType::ModelRenderer), _shader(shader)
@@ -32,6 +34,14 @@ void ModelRenderer::RenderInstancing(shared_ptr<class InstancingBuffer>& buffer)
 	if (_model == nullptr)
 		return;
 
+	// GlobalData
+	_shader->PushGlobalData(Camera::S_MatView, Camera::S_MatProjection);
+
+	// Light
+	auto lightObj = SCENE->GetCurrentScene()->GetLight();
+	if (lightObj)
+		_shader->PushLightData(lightObj->GetLight()->GetLightDesc());
+
 	//Bones -> shader
 	BoneDesc boneDesc;
 
@@ -42,7 +52,7 @@ void ModelRenderer::RenderInstancing(shared_ptr<class InstancingBuffer>& buffer)
 		shared_ptr<ModelBone> bone = _model->GetBoneByIndex(i);
 		boneDesc.transforms[i] = bone->transform;
 	}
-	RENDER->PushBoneData(boneDesc);
+	_shader->PushBoneData(boneDesc);
 
 	//부품
 	const auto& meshes = _model->GetMeshes();

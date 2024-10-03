@@ -1,6 +1,7 @@
 #pragma once
 #include "Pass.h"
 #include "Technique.h"
+#include "BindShaderDesc.h"
 
 struct ShaderDesc
 {
@@ -53,6 +54,50 @@ private:
 	D3DX11_EFFECT_DESC _effectDesc;
 	shared_ptr<StateBlock> _initialStateBlock;
 	vector<Technique> _techniques;
+
+public:
+
+	void PushGlobalData(const Matrix& view, const Matrix& projection);
+	void PushTransformData(const TransformDesc& desc);
+	void PushLightData(const LightDesc& desc);
+	void PushMaterialData(const MaterialDesc& desc);
+	void PushBoneData(const BoneDesc& desc);
+	void PushKeyframeData(const KeyframeDesc& desc);
+	void PushTweenData(const InstancedTweenDesc& desc);
+
+private:
+	//프레임마다 한번만 세팅
+	GlobalDesc _globalDesc;
+	shared_ptr<ConstantBuffer<GlobalDesc>> _globalBuffer;
+	//정보넘겨주기
+	ComPtr<ID3DX11EffectConstantBuffer> _globalEffectBuffer;
+
+
+	TransformDesc _transformDesc;
+	shared_ptr<ConstantBuffer<TransformDesc>> _transformBuffer;
+	//정보넘겨주기
+	ComPtr<ID3DX11EffectConstantBuffer> _transformEffectBuffer;
+
+	LightDesc _lightDesc;
+	shared_ptr<ConstantBuffer<LightDesc>> _lightBuffer;
+	ComPtr<ID3DX11EffectConstantBuffer> _lightEffectBuffer;
+
+	MaterialDesc _materialDesc;
+	shared_ptr<ConstantBuffer<MaterialDesc>> _materialBuffer;
+	ComPtr<ID3DX11EffectConstantBuffer> _materialEffectBuffer;
+
+	BoneDesc _boneDesc;
+	shared_ptr<ConstantBuffer<BoneDesc>> _boneBuffer;
+	ComPtr<ID3DX11EffectConstantBuffer> _boneEffectBuffer;
+
+	KeyframeDesc _keyframeDesc;
+	shared_ptr<ConstantBuffer<KeyframeDesc>> _keyframeBuffer;
+	ComPtr<ID3DX11EffectConstantBuffer> _keyframeEffectBuffer;
+
+	InstancedTweenDesc _tweenDesc;
+	shared_ptr<ConstantBuffer<InstancedTweenDesc>> _tweenBuffer;
+	ComPtr<ID3DX11EffectConstantBuffer> _tweenEffectBuffer;
+
 };
 
 class ShaderManager

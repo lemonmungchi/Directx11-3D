@@ -114,7 +114,7 @@ void SceneDemo::Init()
 		CUR_SCENE->Add(obj);
 	}
 
-	RENDER->Init(_shader);
+	//RENDER->Init(_shader);
 }
 
 void SceneDemo::Update()

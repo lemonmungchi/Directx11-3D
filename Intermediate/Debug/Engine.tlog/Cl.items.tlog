@@ -33,7 +33,7 @@ C:\Project\Directx11-3D\Engine\MonoBehaviour.cpp;C:\Project\Directx11-3D\Interme
 C:\Project\Directx11-3D\Engine\Pass.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Pass.obj
 C:\Project\Directx11-3D\Engine\pch.cpp;C:\Project\Directx11-3D\Intermediate\Debug\pch.obj
 C:\Project\Directx11-3D\Engine\RawBuffer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\RawBuffer.obj
-C:\Project\Directx11-3D\Engine\RenderManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\RenderManager.obj
+C:\Project\Directx11-3D\Engine\BindShaderDesc.cpp;C:\Project\Directx11-3D\Intermediate\Debug\BindShaderDesc.obj
 C:\Project\Directx11-3D\Engine\ResourceBase.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ResourceBase.obj
 C:\Project\Directx11-3D\Engine\ResourceManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ResourceManager.obj
 C:\Project\Directx11-3D\Engine\Scene.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Scene.obj

@@ -138,9 +138,6 @@
     <ClInclude Include="MeshRenderer.h">
       <Filter>04. Component</Filter>
     </ClInclude>
-    <ClInclude Include="RenderManager.h">
-      <Filter>02. Managers</Filter>
-    </ClInclude>
     <ClInclude Include="Material.h">
       <Filter>00. Engine\Resource</Filter>
     </ClInclude>
@@ -212,6 +209,9 @@
     </ClInclude>
     <ClInclude Include="StructuredBuffer.h">
       <Filter>05. ComputeShader\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="BindShaderDesc.h">
+      <Filter>98. Utils</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -299,9 +299,6 @@
     <ClCompile Include="MeshRenderer.cpp">
       <Filter>04. Component</Filter>
     </ClCompile>
-    <ClCompile Include="RenderManager.cpp">
-      <Filter>02. Managers</Filter>
-    </ClCompile>
     <ClCompile Include="Material.cpp">
       <Filter>00. Engine\Resource</Filter>
     </ClCompile>
@@ -370,6 +367,9 @@
     </ClCompile>
     <ClCompile Include="StructuredBuffer.cpp">
       <Filter>05. ComputeShader\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="BindShaderDesc.cpp">
+      <Filter>98. Utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

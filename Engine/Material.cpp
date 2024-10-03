@@ -24,7 +24,7 @@ void Material::Update()
 {
 	if (_shader == nullptr) return;
 
-	RENDER->PushMaterialData(_desc);
+	_shader->PushMaterialData(_desc);
 
 	//캐싱해주기
 	if (_diffuseMap) 
