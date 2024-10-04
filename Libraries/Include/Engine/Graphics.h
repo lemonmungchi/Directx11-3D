@@ -1,5 +1,5 @@
 #pragma once
-
+#include "Viewport.h"
 
 //그려지는 것에 필요한 것들
 class Graphics
@@ -19,7 +19,10 @@ private:
 	void CreateDeviceAndSwapChain();
 	void CreateRenderTargetView();
 	void CreateDepthStencilView();
-	void SetViewport();
+
+public:
+	void SetViewport(float width, float height, float x = 0, float y = 0, float minDepth = 0, float maxDepth = 1);
+	Viewport& GetViewport() { return _vp; }
 
 private:
 	HWND _hwnd = {};
@@ -39,6 +42,7 @@ private:
 
 
 	// Misc
-	D3D11_VIEWPORT _viewport = { 0 };
+	//D3D11_VIEWPORT _viewport = { 0 };
+	Viewport _vp;
 };
 

@@ -8,7 +8,7 @@ void Graphics::Init(HWND hwnd)
 	CreateDeviceAndSwapChain();
 	CreateRenderTargetView();
 	CreateDepthStencilView();
-	SetViewport();
+	SetViewport(GAME->GetGameDesc().width, GAME->GetGameDesc().height);
 }
 
 void Graphics::RenderBegin()
@@ -16,7 +16,7 @@ void Graphics::RenderBegin()
 	_deviceContext->OMSetRenderTargets(1, _renderTargetView.GetAddressOf(), _depthStencilView.Get());
 	_deviceContext->ClearRenderTargetView(_renderTargetView.Get(), (float*)(&GAME->GetGameDesc().clearColor));
 	_deviceContext->ClearDepthStencilView(_depthStencilView.Get(), D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1, 0);
-	_deviceContext->RSSetViewports(1, &_viewport);
+	_vp.RSSetViewport();
 }
 
 void Graphics::RenderEnd()
@@ -109,12 +109,7 @@ void Graphics::CreateDepthStencilView()
 	}
 }
 
-void Graphics::SetViewport()
+void Graphics::SetViewport(float width, float height, float x /*= 0*/, float y /*= 0*/, float minDepth /*= 0*/, float maxDepth /*= 1*/)
 {
-	_viewport.TopLeftX = 0.0f;
-	_viewport.TopLeftY = 0.0f;
-	_viewport.Width = static_cast<float>(GAME->GetGameDesc().width);
-	_viewport.Height = static_cast<float>(GAME->GetGameDesc().height);
-	_viewport.MinDepth = 0.0f;
-	_viewport.MaxDepth = 1.0f;
+	_vp.Set(width, height, x, y, minDepth, maxDepth);
 }

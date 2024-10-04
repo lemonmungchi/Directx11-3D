@@ -54,6 +54,9 @@
     <ClCompile Include="StructuredBufferDemo.cpp">
       <Filter>Game\Week4</Filter>
     </ClCompile>
+    <ClCompile Include="ViewportDemo.cpp">
+      <Filter>Game\Week4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -78,6 +81,9 @@
       <Filter>Game\Week4</Filter>
     </ClInclude>
     <ClInclude Include="StructuredBufferDemo.h">
+      <Filter>Game\Week4</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewportDemo.h">
       <Filter>Game\Week4</Filter>
     </ClInclude>
   </ItemGroup>

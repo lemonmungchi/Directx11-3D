@@ -27,6 +27,7 @@
     <ClInclude Include="SceneDemo.h" />
     <ClInclude Include="StructuredBufferDemo.h" />
     <ClInclude Include="TextureBufferDemo.h" />
+    <ClInclude Include="ViewportDemo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CameraScript.cpp" />
@@ -40,6 +41,7 @@
     <ClCompile Include="SceneDemo.cpp" />
     <ClCompile Include="StructuredBufferDemo.cpp" />
     <ClCompile Include="TextureBufferDemo.cpp" />
+    <ClCompile Include="ViewportDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\00. Global.fx" />

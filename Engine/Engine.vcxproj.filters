@@ -213,6 +213,9 @@
     <ClInclude Include="BindShaderDesc.h">
       <Filter>98. Utils</Filter>
     </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>01. Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -370,6 +373,9 @@
     </ClCompile>
     <ClCompile Include="BindShaderDesc.cpp">
       <Filter>98. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>01. Graphics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
