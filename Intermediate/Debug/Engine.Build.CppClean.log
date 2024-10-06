@@ -40,6 +40,7 @@ c:\project\directx11-3d\intermediate\debug\modelrenderer.obj
 c:\project\directx11-3d\intermediate\debug\modelmesh.obj
 c:\project\directx11-3d\intermediate\debug\modelanimator.obj
 c:\project\directx11-3d\intermediate\debug\modelanimation.obj
+c:\project\directx11-3d\intermediate\debug\viewport.obj
 c:\project\directx11-3d\intermediate\debug\vertexdata.obj
 c:\project\directx11-3d\intermediate\debug\vertexbuffer.obj
 c:\project\directx11-3d\intermediate\debug\utils.obj
@@ -53,7 +54,8 @@ c:\project\directx11-3d\intermediate\debug\imgui_demo.obj
 c:\project\directx11-3d\intermediate\debug\imgui.obj
 c:\project\directx11-3d\intermediate\debug\engine.pch
 c:\project\directx11-3d\intermediate\debug\pch.obj
-c:\project\directx11-3d\intermediate\debug\viewport.obj
+c:\project\directx11-3d\intermediate\debug\basecollider.obj
+c:\project\directx11-3d\intermediate\debug\spherecollider.obj
 c:\project\directx11-3d\libraries\lib\engine\engine.lib
 c:\project\directx11-3d\intermediate\debug\camerascript.obj
 c:\project\directx11-3d\intermediate\debug\groupdemo.obj
@@ -62,6 +64,7 @@ c:\project\directx11-3d\intermediate\debug\rawbufferdemo.obj
 c:\project\directx11-3d\intermediate\debug\scenedemo.obj
 c:\project\directx11-3d\intermediate\debug\structuredbufferdemo.obj
 c:\project\directx11-3d\intermediate\debug\texturebufferdemo.obj
+c:\project\directx11-3d\intermediate\debug\viewportdemo.obj
 c:\project\directx11-3d\intermediate\debug\client.ilk
 c:\project\directx11-3d\intermediate\debug\client.pch
 c:\project\directx11-3d\intermediate\debug\vc143.idb

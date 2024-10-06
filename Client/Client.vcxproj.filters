@@ -42,19 +42,22 @@
     <ClCompile Include="SceneDemo.cpp">
       <Filter>Game\Week3</Filter>
     </ClCompile>
-    <ClCompile Include="RawBufferDemo.cpp">
-      <Filter>Game\Week4</Filter>
-    </ClCompile>
     <ClCompile Include="GroupDemo.cpp">
-      <Filter>Game\Week4</Filter>
+      <Filter>Game\Week3</Filter>
     </ClCompile>
-    <ClCompile Include="TextureBufferDemo.cpp">
-      <Filter>Game\Week4</Filter>
+    <ClCompile Include="RawBufferDemo.cpp">
+      <Filter>Game\Week3</Filter>
     </ClCompile>
     <ClCompile Include="StructuredBufferDemo.cpp">
-      <Filter>Game\Week4</Filter>
+      <Filter>Game\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBufferDemo.cpp">
+      <Filter>Game\Week3</Filter>
     </ClCompile>
     <ClCompile Include="ViewportDemo.cpp">
+      <Filter>Game\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDemo.cpp">
       <Filter>Game\Week4</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,19 +74,22 @@
     <ClInclude Include="SceneDemo.h">
       <Filter>Game\Week3</Filter>
     </ClInclude>
-    <ClInclude Include="RawBufferDemo.h">
-      <Filter>Game\Week4</Filter>
+    <ClInclude Include="TextureBufferDemo.h">
+      <Filter>Game\Week3</Filter>
     </ClInclude>
     <ClInclude Include="GroupDemo.h">
-      <Filter>Game\Week4</Filter>
+      <Filter>Game\Week3</Filter>
     </ClInclude>
-    <ClInclude Include="TextureBufferDemo.h">
-      <Filter>Game\Week4</Filter>
+    <ClInclude Include="RawBufferDemo.h">
+      <Filter>Game\Week3</Filter>
     </ClInclude>
     <ClInclude Include="StructuredBufferDemo.h">
-      <Filter>Game\Week4</Filter>
+      <Filter>Game\Week3</Filter>
     </ClInclude>
     <ClInclude Include="ViewportDemo.h">
+      <Filter>Game\Week3</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDemo.h">
       <Filter>Game\Week4</Filter>
     </ClInclude>
   </ItemGroup>

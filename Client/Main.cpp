@@ -7,6 +7,7 @@
 #include "TextureBufferDemo.h"
 #include "StructuredBufferDemo.h"
 #include "ViewportDemo.h"
+#include "CollisionDemo.h"
 
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
@@ -20,7 +21,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	desc.height = 600;
 	desc.clearColor = Color(0.f, 0.f, 0.f, 0.f);
 	//실행단위
-	desc.app = make_shared<ViewportDemo>();
+	desc.app = make_shared<CollisionDemo>();
 
 	GAME->Run(desc);
 
