@@ -225,6 +225,12 @@
     <ClInclude Include="SphereCollider.h">
       <Filter>04. Component\Collision</Filter>
     </ClInclude>
+    <ClInclude Include="AABBBoxCollider.h">
+      <Filter>04. Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="OBBBoxCollider.h">
+      <Filter>04. Component\Collision</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -390,6 +396,12 @@
       <Filter>04. Component\Collision</Filter>
     </ClCompile>
     <ClCompile Include="SphereCollider.cpp">
+      <Filter>04. Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBBoxCollider.cpp">
+      <Filter>04. Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="OBBBoxCollider.cpp">
       <Filter>04. Component\Collision</Filter>
     </ClCompile>
   </ItemGroup>
