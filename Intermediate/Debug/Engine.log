@@ -50,6 +50,7 @@
   C:\Project\Directx11-3D\Engine\SphereCollider.h
   C:\Project\Directx11-3D\Engine\StructuredBuffer.h
   C:\Project\Directx11-3D\Engine\Technique.h
+  C:\Project\Directx11-3D\Engine\Terrain.h
   C:\Project\Directx11-3D\Engine\Texture.h
   C:\Project\Directx11-3D\Engine\TextureBuffer.h
   C:\Project\Directx11-3D\Engine\TimeManager.h
@@ -60,7 +61,7 @@
   C:\Project\Directx11-3D\Engine\VertexBuffer.h
   C:\Project\Directx11-3D\Engine\VertexData.h
   C:\Project\Directx11-3D\Engine\Viewport.h
-  61개 파일이 복사되었습니다.
+  62개 파일이 복사되었습니다.
   C:\Project\Directx11-3D\Engine\SimpleMath.inl
   1개 파일이 복사되었습니다.
   pch.cpp
@@ -182,6 +183,13 @@ C:\Project\Directx11-3D\Engine\StructuredBuffer.h(1,1): warning C4819: 현재 �
   Technique.cpp
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
+  Terrain.cpp
+C:\Project\Directx11-3D\Engine\Terrain.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\Terrain.cpp(46,38): warning C4244: '인수': 'int32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Engine\Terrain.cpp(46,29): warning C4244: '인수': 'int32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Engine\Terrain.cpp(47,38): warning C4244: '인수': 'int32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Project\Directx11-3D\Engine\Terrain.cpp(47,29): warning C4244: '인수': 'int32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Texture.cpp
 C:\Project\Directx11-3D\Engine\Texture.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Texture.cpp(23,14): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.

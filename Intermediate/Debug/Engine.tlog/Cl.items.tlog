@@ -46,6 +46,7 @@ C:\Project\Directx11-3D\Engine\SimpleMath.cpp;C:\Project\Directx11-3D\Intermedia
 C:\Project\Directx11-3D\Engine\SphereCollider.cpp;C:\Project\Directx11-3D\Intermediate\Debug\SphereCollider.obj
 C:\Project\Directx11-3D\Engine\StructuredBuffer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\StructuredBuffer.obj
 C:\Project\Directx11-3D\Engine\Technique.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Technique.obj
+C:\Project\Directx11-3D\Engine\Terrain.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Terrain.obj
 C:\Project\Directx11-3D\Engine\Texture.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Texture.obj
 C:\Project\Directx11-3D\Engine\TextureBuffer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\TextureBuffer.obj
 C:\Project\Directx11-3D\Engine\TimeManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\TimeManager.obj

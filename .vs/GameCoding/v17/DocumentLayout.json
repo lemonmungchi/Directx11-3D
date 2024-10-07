@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Terrain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Terrain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Terrain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Terrain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\CollisionDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\CollisionDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\OBBBoxCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\OBBBoxCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\AABBBoxCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\AABBBoxCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\CollisionDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|solutionrelative:Client\\CollisionDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|C:\\Project\\Directx11-3D\\Engine\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F5C1012-31BD-4947-831E-BF2CC095398F}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C2D9AA8-61C9-4AB4-B14A-DBDF76A868CC}|Client\\Client.vcxproj|C:\\Project\\Directx11-3D\\Client\\ViewportDemo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -207,25 +211,51 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 195,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 209,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OBBBoxCollider.h",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\OBBBoxCollider.h",
-              "RelativeDocumentMoniker": "Engine\\OBBBoxCollider.h",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\OBBBoxCollider.h",
-              "RelativeToolTip": "Engine\\OBBBoxCollider.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
+              "DocumentIndex": 1,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Mesh.h",
+              "RelativeDocumentMoniker": "Engine\\Mesh.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Mesh.h",
+              "RelativeToolTip": "Engine\\Mesh.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-06T12:42:17.902Z",
+              "WhenOpened": "2024-10-07T04:07:39.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "Terrain.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Terrain.h",
+              "RelativeDocumentMoniker": "Engine\\Terrain.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Terrain.h",
+              "RelativeToolTip": "Engine\\Terrain.h",
+              "ViewState": "AQIAAAQAAAAAAAAAAAASwBMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-07T02:36:07.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\GameObject.h",
+              "RelativeDocumentMoniker": "Engine\\GameObject.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\GameObject.h",
+              "RelativeToolTip": "Engine\\GameObject.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-07T02:46:28.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AABBBoxCollider.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\AABBBoxCollider.h",
               "RelativeDocumentMoniker": "Engine\\AABBBoxCollider.h",
@@ -238,7 +268,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 44,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Libraries\\Include\\Engine\\GameObject.h",
+              "RelativeDocumentMoniker": "Libraries\\Include\\Engine\\GameObject.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Libraries\\Include\\Engine\\GameObject.h",
+              "RelativeToolTip": "Libraries\\Include\\Engine\\GameObject.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-01T13:14:56.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CollisionDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\CollisionDemo.h",
               "RelativeDocumentMoniker": "Client\\CollisionDemo.h",
@@ -246,12 +288,11 @@
               "RelativeToolTip": "Client\\CollisionDemo.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-06T06:49:31.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T06:49:31.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "SphereCollider.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\SphereCollider.h",
               "RelativeDocumentMoniker": "Engine\\SphereCollider.h",
@@ -264,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Scene.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Scene.h",
               "RelativeDocumentMoniker": "Engine\\Scene.h",
@@ -277,19 +318,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Component.h",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Component.h",
-              "RelativeDocumentMoniker": "Engine\\Component.h",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Component.h",
-              "RelativeToolTip": "Engine\\Component.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "DocumentIndex": 8,
+              "Title": "OBBBoxCollider.h",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\OBBBoxCollider.h",
+              "RelativeDocumentMoniker": "Engine\\OBBBoxCollider.h",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\OBBBoxCollider.h",
+              "RelativeToolTip": "Engine\\OBBBoxCollider.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-06T06:55:14.548Z"
+              "WhenOpened": "2024-10-06T12:42:17.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ViewportDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\ViewportDemo.h",
               "RelativeDocumentMoniker": "Client\\ViewportDemo.h",
@@ -301,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Viewport.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Viewport.h",
               "RelativeDocumentMoniker": "Engine\\Viewport.h",
@@ -309,11 +351,12 @@
               "RelativeToolTip": "Engine\\Viewport.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-04T06:15:08.237Z"
+              "WhenOpened": "2024-10-04T06:15:08.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Shader.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Shader.h",
               "RelativeDocumentMoniker": "Engine\\Shader.h",
@@ -321,11 +364,12 @@
               "RelativeToolTip": "Engine\\Shader.h",
               "ViewState": "AQIAAE8AAAAAAAAAAAAiwFgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-03T09:25:39.243Z"
+              "WhenOpened": "2024-10-03T09:25:39.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "BindShaderDesc.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\BindShaderDesc.h",
               "RelativeDocumentMoniker": "Engine\\BindShaderDesc.h",
@@ -333,11 +377,12 @@
               "RelativeToolTip": "Engine\\BindShaderDesc.h",
               "ViewState": "AQIAAD8AAAAAAAAAAAAiwE8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-03T09:25:21.188Z"
+              "WhenOpened": "2024-10-03T09:25:21.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TextureBufferDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\TextureBufferDemo.h",
               "RelativeDocumentMoniker": "Client\\TextureBufferDemo.h",
@@ -349,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Graphics.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Graphics.h",
               "RelativeDocumentMoniker": "Engine\\Graphics.h",
@@ -357,11 +402,12 @@
               "RelativeToolTip": "Engine\\Graphics.h",
               "ViewState": "AQIAABIAAAAAAAAAAAAkwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-04T07:17:11.565Z"
+              "WhenOpened": "2024-10-04T07:17:11.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "StructuredBufferDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\StructuredBufferDemo.h",
               "RelativeDocumentMoniker": "Client\\StructuredBufferDemo.h",
@@ -373,19 +419,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ModelAnimator.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ModelAnimator.h",
               "RelativeDocumentMoniker": "Engine\\ModelAnimator.h",
               "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\ModelAnimator.h",
               "RelativeToolTip": "Engine\\ModelAnimator.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAxAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-26T05:30:27.981Z"
+              "WhenOpened": "2024-09-26T05:30:27.981Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "27. StructuredBufferDemo.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\27. StructuredBufferDemo.fx",
               "RelativeDocumentMoniker": "Shaders\\27. StructuredBufferDemo.fx",
@@ -397,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "StructuredBuffer.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\StructuredBuffer.h",
               "RelativeDocumentMoniker": "Engine\\StructuredBuffer.h",
@@ -405,11 +452,12 @@
               "RelativeToolTip": "Engine\\StructuredBuffer.h",
               "ViewState": "AQIAABEAAAAAAAAAAAAiwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-02T11:30:42.387Z"
+              "WhenOpened": "2024-10-02T11:30:42.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Texture.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Texture.h",
               "RelativeDocumentMoniker": "Engine\\Texture.h",
@@ -417,11 +465,12 @@
               "RelativeToolTip": "Engine\\Texture.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-02T08:53:12.724Z"
+              "WhenOpened": "2024-10-02T08:53:12.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "TextureBuffer.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\TextureBuffer.h",
               "RelativeDocumentMoniker": "Engine\\TextureBuffer.h",
@@ -429,11 +478,12 @@
               "RelativeToolTip": "Engine\\TextureBuffer.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-02T08:32:29.681Z"
+              "WhenOpened": "2024-10-02T08:32:29.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "25. GroupDemo.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\25. GroupDemo.fx",
               "RelativeDocumentMoniker": "Shaders\\25. GroupDemo.fx",
@@ -445,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "RawBuffer.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\RawBuffer.h",
               "RelativeDocumentMoniker": "Engine\\RawBuffer.h",
@@ -453,11 +503,12 @@
               "RelativeToolTip": "Engine\\RawBuffer.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-30T11:07:00.658Z"
+              "WhenOpened": "2024-09-30T11:07:00.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Light.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Light.h",
               "RelativeDocumentMoniker": "Engine\\Light.h",
@@ -465,11 +516,12 @@
               "RelativeToolTip": "Engine\\Light.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-28T13:57:00.826Z"
+              "WhenOpened": "2024-09-28T13:57:00.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "23. RenderDemo.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\23. RenderDemo.fx",
               "RelativeDocumentMoniker": "Shaders\\23. RenderDemo.fx",
@@ -481,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "InstancingManager.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\InstancingManager.h",
               "RelativeDocumentMoniker": "Engine\\InstancingManager.h",
@@ -489,11 +541,12 @@
               "RelativeToolTip": "Engine\\InstancingManager.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-24T10:28:02.95Z"
+              "WhenOpened": "2024-09-24T10:28:02.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "14. SpecularDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\14. SpecularDemo.h",
               "RelativeDocumentMoniker": "Client\\14. SpecularDemo.h",
@@ -505,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "11. DepthStencilDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\11. DepthStencilDemo.h",
               "RelativeDocumentMoniker": "Client\\11. DepthStencilDemo.h",
@@ -517,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "08. GlobalTest.fx",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Shaders\\08. GlobalTest.fx",
               "RelativeDocumentMoniker": "Shaders\\08. GlobalTest.fx",
@@ -529,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "CameraScript.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\CameraScript.h",
               "RelativeDocumentMoniker": "Client\\CameraScript.h",
@@ -541,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "09. MeshDemo.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\09. MeshDemo.h",
               "RelativeDocumentMoniker": "Client\\09. MeshDemo.h",
@@ -553,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "ResourceManager.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ResourceManager.h",
               "RelativeDocumentMoniker": "Engine\\ResourceManager.h",
@@ -561,74 +614,50 @@
               "RelativeToolTip": "Engine\\ResourceManager.h",
               "ViewState": "AQIAAAMAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-01T12:50:47.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Libraries\\Include\\Engine\\GameObject.h",
-              "RelativeDocumentMoniker": "Libraries\\Include\\Engine\\GameObject.h",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Libraries\\Include\\Engine\\GameObject.h",
-              "RelativeToolTip": "Libraries\\Include\\Engine\\GameObject.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-01T13:14:56.878Z"
+              "WhenOpened": "2024-09-01T12:50:47.982Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 205,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 191,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AABBBoxCollider.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\AABBBoxCollider.cpp",
-              "RelativeDocumentMoniker": "Engine\\AABBBoxCollider.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\AABBBoxCollider.cpp",
-              "RelativeToolTip": "Engine\\AABBBoxCollider.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-06T12:42:21.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OBBBoxCollider.cpp",
-              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\OBBBoxCollider.cpp",
-              "RelativeDocumentMoniker": "Engine\\OBBBoxCollider.cpp",
-              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\OBBBoxCollider.cpp",
-              "RelativeToolTip": "Engine\\OBBBoxCollider.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Title": "Terrain.cpp",
+              "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Terrain.cpp",
+              "RelativeDocumentMoniker": "Engine\\Terrain.cpp",
+              "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Terrain.cpp",
+              "RelativeToolTip": "Engine\\Terrain.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-06T12:42:37.811Z",
+              "WhenOpened": "2024-10-07T03:59:58.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CollisionDemo.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\CollisionDemo.cpp",
               "RelativeDocumentMoniker": "Client\\CollisionDemo.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\Client\\CollisionDemo.cpp",
               "RelativeToolTip": "Client\\CollisionDemo.cpp",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAAAGsAAAAXAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE0AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-06T12:54:47.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SphereCollider.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\SphereCollider.cpp",
               "RelativeDocumentMoniker": "Engine\\SphereCollider.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\SphereCollider.cpp",
               "RelativeToolTip": "Engine\\SphereCollider.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAMAAAAbAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwAMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-06T06:57:14.322Z",
               "EditorCaption": ""
@@ -641,26 +670,27 @@
               "RelativeDocumentMoniker": "Engine\\Scene.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Scene.cpp",
               "RelativeToolTip": "Engine\\Scene.cpp",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAiwI4AAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-03T09:38:50.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MeshRenderer.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\MeshRenderer.cpp",
               "RelativeDocumentMoniker": "Engine\\MeshRenderer.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\MeshRenderer.cpp",
               "RelativeToolTip": "Engine\\MeshRenderer.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAA+AAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwCIAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-03T09:39:47.779Z"
+              "WhenOpened": "2024-10-03T09:39:47.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Light.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Light.cpp",
               "RelativeDocumentMoniker": "Engine\\Light.cpp",
@@ -668,23 +698,25 @@
               "RelativeToolTip": "Engine\\Light.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-03T09:36:39.282Z"
+              "WhenOpened": "2024-10-03T09:36:39.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Shader.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Shader.cpp",
               "RelativeDocumentMoniker": "Engine\\Shader.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\Shader.cpp",
               "RelativeToolTip": "Engine\\Shader.cpp",
-              "ViewState": "AQIAADEBAAAAAAAAAAAAADsBAAAaAAAA",
+              "ViewState": "AQIAADABAAAAAAAAAAAwwDsBAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-03T09:25:37.731Z"
+              "WhenOpened": "2024-10-03T09:25:37.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Define.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Define.h",
               "RelativeDocumentMoniker": "Engine\\Define.h",
@@ -692,11 +724,12 @@
               "RelativeToolTip": "Engine\\Define.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-03T09:32:32.573Z"
+              "WhenOpened": "2024-10-03T09:32:32.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "EnginePch.h",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\EnginePch.h",
               "RelativeDocumentMoniker": "Engine\\EnginePch.h",
@@ -704,11 +737,12 @@
               "RelativeToolTip": "Engine\\EnginePch.h",
               "ViewState": "AQIAAEUAAAAAAAAAAAApwEUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-03T09:32:12.255Z"
+              "WhenOpened": "2024-10-03T09:32:12.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "InstancingManager.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\InstancingManager.cpp",
               "RelativeDocumentMoniker": "Engine\\InstancingManager.cpp",
@@ -716,11 +750,12 @@
               "RelativeToolTip": "Engine\\InstancingManager.cpp",
               "ViewState": "AQIAAH8AAAAAAAAAAAApwI8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-24T10:56:34.882Z"
+              "WhenOpened": "2024-09-24T10:56:34.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "BindShaderDesc.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\BindShaderDesc.cpp",
               "RelativeDocumentMoniker": "Engine\\BindShaderDesc.cpp",
@@ -728,11 +763,12 @@
               "RelativeToolTip": "Engine\\BindShaderDesc.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-03T09:25:20.412Z"
+              "WhenOpened": "2024-10-03T09:25:20.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "StructuredBufferDemo.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Client\\StructuredBufferDemo.cpp",
               "RelativeDocumentMoniker": "Client\\StructuredBufferDemo.cpp",
@@ -745,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "StructuredBuffer.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\StructuredBuffer.cpp",
               "RelativeDocumentMoniker": "Engine\\StructuredBuffer.cpp",
@@ -753,11 +789,12 @@
               "RelativeToolTip": "Engine\\StructuredBuffer.cpp",
               "ViewState": "AQIAAGAAAAAAAAAAAAAiwH4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-02T11:34:58.585Z"
+              "WhenOpened": "2024-10-02T11:34:58.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "TextureBuffer.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\TextureBuffer.cpp",
               "RelativeDocumentMoniker": "Engine\\TextureBuffer.cpp",
@@ -765,11 +802,12 @@
               "RelativeToolTip": "Engine\\TextureBuffer.cpp",
               "ViewState": "AQIAAEsAAAAAAAAAAAAiwGkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-02T08:32:31.977Z"
+              "WhenOpened": "2024-10-02T08:32:31.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "utility",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\utility",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include\\utility",
@@ -781,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "InstancingBuffer.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\InstancingBuffer.cpp",
               "RelativeDocumentMoniker": "Engine\\InstancingBuffer.cpp",
@@ -789,11 +827,12 @@
               "RelativeToolTip": "Engine\\InstancingBuffer.cpp",
               "ViewState": "AQIAABQAAAAAAAAAAAAkwDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-24T11:02:59.744Z"
+              "WhenOpened": "2024-09-24T11:02:59.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Model.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\Model.cpp",
               "RelativeDocumentMoniker": "Engine\\Model.cpp",
@@ -801,23 +840,25 @@
               "RelativeToolTip": "Engine\\Model.cpp",
               "ViewState": "AQIAANcAAAAAAAAAAADwv+UAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-14T05:09:08.145Z"
+              "WhenOpened": "2024-09-14T05:09:08.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ImGuiManager.cpp",
               "DocumentMoniker": "C:\\Project\\Directx11-3D\\Engine\\ImGuiManager.cpp",
               "RelativeDocumentMoniker": "Engine\\ImGuiManager.cpp",
               "ToolTip": "C:\\Project\\Directx11-3D\\Engine\\ImGuiManager.cpp",
               "RelativeToolTip": "Engine\\ImGuiManager.cpp",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBkAAAATAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAABAwBkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-15T10:05:48.542Z"
+              "WhenOpened": "2024-09-15T10:05:48.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "15. ModelDemo.fx",
               "DocumentMoniker": "C:\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx",
               "RelativeDocumentMoniker": "..\\..\\Users\\khc11\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uCF54\uB4DC\uBC31\uC5C5\\A-26)\u002BImGUI\\Shaders\\15. ModelDemo.fx",

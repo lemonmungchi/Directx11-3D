@@ -14,12 +14,12 @@ Component::~Component()
 
 std::shared_ptr<GameObject> Component::GetGameObject()
 {
-	return _cat.lock();
+	return _gameObject.lock();
 }
 
 std::shared_ptr<Transform> Component::GetTransform()
 {
-	return _cat.lock()->GetTransform();
+	return _gameObject.lock()->GetTransform();
 }
 
 

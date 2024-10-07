@@ -12,6 +12,7 @@ enum class ComponentType : uint8
 	Animator,
 	Light,
 	Collider,
+	Terrain,
 	// ...
 	Script,
 
@@ -45,11 +46,11 @@ public:
 
 private:
 	friend class GameObject;
-	void SetGameObject(shared_ptr<GameObject> gameObject) { _cat = gameObject; }
+	void SetGameObject(shared_ptr<GameObject> gameObject) { _gameObject = gameObject; }
 
 
 protected:
 	ComponentType _type;
-	weak_ptr<GameObject> _cat;
+	weak_ptr<GameObject> _gameObject;
 };
 

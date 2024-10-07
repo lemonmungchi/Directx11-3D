@@ -24,6 +24,7 @@
 #include "Scene.h"
 #include "AABBBoxCollider.h"
 #include "OBBBoxCollider.h"
+#include "Terrain.h"
 
 void CollisionDemo::Init()
 {
@@ -64,6 +65,14 @@ void CollisionDemo::Init()
 		RESOURCES->Add(L"Veigar", material);
 	}
 
+	//Terrain
+	{
+		auto obj = make_shared<GameObject>();
+		obj->AddComponent(make_shared<Terrain>());
+		obj->GetTerrain()->Create(10, 10, RESOURCES->Get<Material>(L"Veigar"));
+
+		CUR_SCENE->Add(obj);
+	}
 	// Mesh
 	{
 		auto obj = make_shared<GameObject>();

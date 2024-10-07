@@ -231,6 +231,7 @@
     <ClInclude Include="OBBBoxCollider.h">
       <Filter>04. Component\Collision</Filter>
     </ClInclude>
+    <ClInclude Include="Terrain.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -404,6 +405,7 @@
     <ClCompile Include="OBBBoxCollider.cpp">
       <Filter>04. Component\Collision</Filter>
     </ClCompile>
+    <ClCompile Include="Terrain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SimpleMath.inl">
