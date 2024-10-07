@@ -46,6 +46,9 @@
     <Filter Include="04. Component\Collision">
       <UniqueIdentifier>{a109b873-4d9d-4336-b63d-6f909941a6ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="99. Headers\Math">
+      <UniqueIdentifier>{b76bb008-66bd-4af1-92ff-6e811a53373f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -231,7 +234,12 @@
     <ClInclude Include="OBBBoxCollider.h">
       <Filter>04. Component\Collision</Filter>
     </ClInclude>
-    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="Terrain.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive3D.h">
+      <Filter>99. Headers\Math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -405,7 +413,12 @@
     <ClCompile Include="OBBBoxCollider.cpp">
       <Filter>04. Component\Collision</Filter>
     </ClCompile>
-    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="Terrain.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive3D.cpp">
+      <Filter>99. Headers\Math</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SimpleMath.inl">

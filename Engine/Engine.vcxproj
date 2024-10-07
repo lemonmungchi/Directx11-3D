@@ -204,6 +204,7 @@ xcopy /Y "$(SolutionDir)Engine\*.inl" "$(SolutionDir)Libraries\Include\Engine"</
     <ClInclude Include="OBBBoxCollider.h" />
     <ClInclude Include="Pass.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Primitive3D.h" />
     <ClInclude Include="RawBuffer.h" />
     <ClInclude Include="BindShaderDesc.h" />
     <ClInclude Include="ResourceBase.h" />
@@ -284,6 +285,7 @@ xcopy /Y "$(SolutionDir)Engine\*.inl" "$(SolutionDir)Libraries\Include\Engine"</
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Primitive3D.cpp" />
     <ClCompile Include="RawBuffer.cpp" />
     <ClCompile Include="BindShaderDesc.cpp" />
     <ClCompile Include="ResourceBase.cpp" />
