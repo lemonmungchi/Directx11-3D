@@ -20,30 +20,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CameraScript.h" />
-    <ClInclude Include="CollisionDemo.h" />
-    <ClInclude Include="GroupDemo.h" />
     <ClInclude Include="Main.h" />
+    <ClInclude Include="OrthoGraphicDemo.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="RawBufferDemo.h" />
-    <ClInclude Include="SceneDemo.h" />
-    <ClInclude Include="StructuredBufferDemo.h" />
-    <ClInclude Include="TextureBufferDemo.h" />
-    <ClInclude Include="ViewportDemo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CameraScript.cpp" />
-    <ClCompile Include="CollisionDemo.cpp" />
-    <ClCompile Include="GroupDemo.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OrthoGraphicDemo.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="RawBufferDemo.cpp" />
-    <ClCompile Include="SceneDemo.cpp" />
-    <ClCompile Include="StructuredBufferDemo.cpp" />
-    <ClCompile Include="TextureBufferDemo.cpp" />
-    <ClCompile Include="ViewportDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\00. Global.fx" />

@@ -1,5 +1,8 @@
 #include "pch.h"
-#include "SceneDemo.h"
+#include "OrthoGraphicDemo.h"
+#include "RawBuffer.h"
+#include "TextureBuffer.h"
+#include "Material.h"
 #include "GeometryHelper.h"
 #include "Camera.h"
 #include "GameObject.h"
@@ -15,8 +18,15 @@
 #include "VertexBuffer.h"
 #include "IndexBuffer.h"
 #include "Light.h"
+#include "Graphics.h"
+#include "SphereCollider.h"
+#include "Scene.h"
+#include "AABBBoxCollider.h"
+#include "OBBBoxCollider.h"
+#include "Terrain.h"
+#include "Camera.h"
 
-void SceneDemo::Init()
+void OrthoGraphicDemo::Init()
 {
 	_shader = make_shared<Shader>(L"23. RenderDemo.fx");
 
@@ -26,7 +36,23 @@ void SceneDemo::Init()
 		camera->GetOrAddTransform()->SetPosition(Vec3{ 0.f, 0.f, -5.f });
 		camera->AddComponent(make_shared<Camera>());
 		camera->AddComponent(make_shared<CameraScript>());
+		camera->GetCamera()->SetCullingMaskLayerOnOff(Layer_UI, true);
 		CUR_SCENE->Add(camera);
+	}
+
+	//UI_Camera
+	{
+		auto camera = make_shared<GameObject>();
+		camera->GetOrAddTransform()->SetPosition(Vec3{ 0.f, 0.f, -5.f });
+		camera->AddComponent(make_shared<Camera>());
+		camera->GetCamera()->SetProjectionType(ProjectionType::Orthographic);
+		camera->GetCamera()->SetNear(1.f);
+		camera->GetCamera()->SetFar(100.f);
+
+		//UI만 그려주게
+		camera->GetCamera()->SetCullingMaskAll();
+		camera->GetCamera()->SetCullingMaskLayerOnOff(Layer_UI, false);
+		CUR_SCENE->Add(camera); 
 	}
 
 	// Light
@@ -42,48 +68,6 @@ void SceneDemo::Init()
 		CUR_SCENE->Add(light);
 	}
 
-	// Animation
-	shared_ptr<class Model> m1 = make_shared<Model>();
-	m1->ReadModel(L"Kachujin/Kachujin");
-	m1->ReadMaterial(L"Kachujin/Kachujin");
-	m1->ReadAnimation(L"Kachujin/Idle");
-	m1->ReadAnimation(L"Kachujin/Run");
-	m1->ReadAnimation(L"Kachujin/Slash");
-
-	for (int32 i = 0; i < 500; i++)
-	{
-		auto obj = make_shared<GameObject>();
-		obj->GetOrAddTransform()->SetPosition(Vec3(rand() % 100, 0, rand() % 100));
-		obj->GetOrAddTransform()->SetScale(Vec3(0.01f));
-		obj->AddComponent(make_shared<ModelAnimator>(_shader));
-		{
-			obj->GetModelAnimator()->SetModel(m1);
-			obj->GetModelAnimator()->SetPass(2);
-		}
-		CUR_SCENE->Add(obj);
-	}
-
-	// Model
-	shared_ptr<class Model> m2 = make_shared<Model>();
-	m2->ReadModel(L"Tower/Tower");
-	m2->ReadMaterial(L"Tower/Tower");
-
-	for (int32 i = 0; i < 100; i++)
-	{
-		auto obj = make_shared<GameObject>();
-		obj->GetOrAddTransform()->SetPosition(Vec3(rand() % 100, 0, rand() % 100));
-		obj->GetOrAddTransform()->SetScale(Vec3(0.01f));
-
-		obj->AddComponent(make_shared<ModelRenderer>(_shader));
-		{
-			obj->GetModelRenderer()->SetModel(m2);
-			obj->GetModelRenderer()->SetPass(1);
-		}
-
-		CUR_SCENE->Add(obj);
-	}
-
-	// Mesh
 	// Material
 	{
 		shared_ptr<Material> material = make_shared<Material>();
@@ -96,11 +80,33 @@ void SceneDemo::Init()
 		desc.specular = Vec4(1.f);
 		RESOURCES->Add(L"Veigar", material);
 	}
-
-	for (int32 i = 0; i < 100; i++)
+	
+	// Mesh - 버튼 역활
 	{
 		auto obj = make_shared<GameObject>();
-		obj->GetOrAddTransform()->SetLocalPosition(Vec3(rand() % 100, 0, rand() % 100));
+		obj->GetOrAddTransform()->SetLocalPosition(Vec3(0.f, 200.f, 0.f));
+		//크게해도 UI라서 작게나올것이다.
+		obj->GetOrAddTransform()->SetScale(Vec3(200.f));
+		obj->AddComponent(make_shared<MeshRenderer>());
+
+		obj->SetLayerIndex(Layer_UI);
+		{
+			obj->GetMeshRenderer()->SetMaterial(RESOURCES->Get<Material>(L"Veigar"));
+		}
+		{
+			auto mesh = RESOURCES->Get<Mesh>(L"Quad");
+			obj->GetMeshRenderer()->SetMesh(mesh);
+			obj->GetMeshRenderer()->SetPass(0);
+		}
+
+		CUR_SCENE->Add(obj);
+	}
+
+	// Mesh
+	{
+		auto obj = make_shared<GameObject>();
+		obj->GetOrAddTransform()->SetLocalPosition(Vec3(0.f));
+		obj->GetOrAddTransform()->SetScale(Vec3(2.f));
 		obj->AddComponent(make_shared<MeshRenderer>());
 		{
 			obj->GetMeshRenderer()->SetMaterial(RESOURCES->Get<Material>(L"Veigar"));
@@ -113,16 +119,14 @@ void SceneDemo::Init()
 
 		CUR_SCENE->Add(obj);
 	}
-
-	//RENDER->Init(_shader);
 }
 
-void SceneDemo::Update()
+void OrthoGraphicDemo::Update()
 {
 
 }
 
-void SceneDemo::Render()
+void OrthoGraphicDemo::Render()
 {
 
 }

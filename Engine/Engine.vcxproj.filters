@@ -240,6 +240,9 @@
     <ClInclude Include="Primitive3D.h">
       <Filter>99. Headers\Math</Filter>
     </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>99. Headers\Math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -417,6 +420,9 @@
       <Filter>04. Component</Filter>
     </ClCompile>
     <ClCompile Include="Primitive3D.cpp">
+      <Filter>99. Headers\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtils.cpp">
       <Filter>99. Headers\Math</Filter>
     </ClCompile>
   </ItemGroup>

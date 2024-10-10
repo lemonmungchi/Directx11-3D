@@ -24,6 +24,7 @@ C:\Project\Directx11-3D\Engine\InstancingBuffer.cpp;C:\Project\Directx11-3D\Inte
 C:\Project\Directx11-3D\Engine\InstancingManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\InstancingManager.obj
 C:\Project\Directx11-3D\Engine\Light.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Light.obj
 C:\Project\Directx11-3D\Engine\Material.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Material.obj
+C:\Project\Directx11-3D\Engine\MathUtils.cpp;C:\Project\Directx11-3D\Intermediate\Debug\MathUtils.obj
 C:\Project\Directx11-3D\Engine\Mesh.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Mesh.obj
 C:\Project\Directx11-3D\Engine\MeshRenderer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\MeshRenderer.obj
 C:\Project\Directx11-3D\Engine\Model.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Model.obj
@@ -35,6 +36,7 @@ C:\Project\Directx11-3D\Engine\MonoBehaviour.cpp;C:\Project\Directx11-3D\Interme
 C:\Project\Directx11-3D\Engine\OBBBoxCollider.cpp;C:\Project\Directx11-3D\Intermediate\Debug\OBBBoxCollider.obj
 C:\Project\Directx11-3D\Engine\Pass.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Pass.obj
 C:\Project\Directx11-3D\Engine\pch.cpp;C:\Project\Directx11-3D\Intermediate\Debug\pch.obj
+C:\Project\Directx11-3D\Engine\Primitive3D.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Primitive3D.obj
 C:\Project\Directx11-3D\Engine\RawBuffer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\RawBuffer.obj
 C:\Project\Directx11-3D\Engine\BindShaderDesc.cpp;C:\Project\Directx11-3D\Intermediate\Debug\BindShaderDesc.obj
 C:\Project\Directx11-3D\Engine\ResourceBase.cpp;C:\Project\Directx11-3D\Intermediate\Debug\ResourceBase.obj

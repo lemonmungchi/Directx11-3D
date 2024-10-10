@@ -3,7 +3,6 @@
 #include "RawBuffer.h"
 #include "TextureBuffer.h"
 #include "Material.h"
-#include "SceneDemo.h"
 #include "GeometryHelper.h"
 #include "Camera.h"
 #include "GameObject.h"
@@ -149,11 +148,4 @@ void CollisionDemo::Update()
 void CollisionDemo::Render()
 {
 
-}
-
-void MoveScript::Update()
-{
-	auto pos = GetTransform()->GetPosition();
-	pos.x -= DT * 1.0f;
-	GetTransform()->SetPosition(pos);
 }

@@ -8,15 +8,17 @@ public:
 	virtual void Update();
 	virtual void LateUpdate();
 	
+	virtual void Render();
+
 	//추가
 	virtual void Add(shared_ptr<GameObject> object);
 	//제거
 	virtual void Remove(shared_ptr<GameObject> object);
 
 	
-	unordered_set<shared_ptr<GameObject>> GetObjects() { return _objects; }
-	//일단 하나라고 가정하고 제일 처음꺼 가져오기
-	shared_ptr<GameObject> GetCamera() { return _cameras.empty() ? nullptr : *_cameras.begin(); }
+	unordered_set<shared_ptr<GameObject>>& GetObjects() { return _objects; }
+	shared_ptr<GameObject> GetMainCamera();
+	shared_ptr<GameObject> GetUICamera();
 	shared_ptr<GameObject> GetLight() { return _lights.empty() ? nullptr : *_lights.begin(); }
 
 	shared_ptr<class GameObject> Pick(int32 screenX, int32 screenY);

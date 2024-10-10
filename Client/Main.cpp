@@ -1,13 +1,8 @@
 #include "pch.h"
 #include "Main.h"
 #include "Engine/Game.h"
-#include "SceneDemo.h"
-#include "RawBufferDemo.h"
-#include "GroupDemo.h"
-#include "TextureBufferDemo.h"
-#include "StructuredBufferDemo.h"
-#include "ViewportDemo.h"
 #include "CollisionDemo.h"
+#include "OrthoGraphicDemo.h"
 
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
@@ -21,7 +16,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	desc.height = 600;
 	desc.clearColor = Color(0.f, 0.f, 0.f, 0.f);
 	//실행단위
-	desc.app = make_shared<CollisionDemo>();
+	desc.app = make_shared<OrthoGraphicDemo>();
 
 	GAME->Run(desc);
 

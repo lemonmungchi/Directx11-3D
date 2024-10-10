@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Camera.h"
+#include "Scene.h"
 
 Matrix Camera::S_MatView = Matrix::Identity;
 Matrix Camera::S_MatProjection = Matrix::Identity;
@@ -19,7 +20,36 @@ void Camera::Update()
 {
 	UpdateMatrix();
 
-	//RENDER->PushGlobalData(Camera::S_MatView, Camera::S_MatProjection);
+}
+
+void Camera::SortGameObject()
+{
+	shared_ptr<Scene> scene = CUR_SCENE;
+	unordered_set<shared_ptr<GameObject>>& gameObjects = scene->GetObjects();
+
+	_vecForward.clear();
+
+	for (auto& gameObject : gameObjects)
+	{
+		if (IsCulled(gameObject->GetLayerIndex()))
+			continue;
+
+		if (gameObject->GetMeshRenderer() == nullptr
+			&& gameObject->GetModelRenderer() == nullptr
+			&& gameObject->GetModelAnimator() == nullptr)
+			continue;
+
+		_vecForward.push_back(gameObject);
+	}
+}
+
+void Camera::Render_Forward()
+{
+	S_MatView = _matView;
+	S_MatProjection = _matProjection;
+
+	//카메라에서 물체 그려주기
+	GET_SINGLE(InstancingManager)->Render(_vecForward);
 }
 
 void Camera::UpdateMatrix()
@@ -29,5 +59,15 @@ void Camera::UpdateMatrix()
 	Vec3 upDirection = GetTransform()->GetUp();
 
 	_matView = S_MatView = ::XMMatrixLookAtLH(eyePosition, focusPosition, upDirection);
-	_matProjection = S_MatProjection = ::XMMatrixPerspectiveFovLH(_fov, _width / _height, _near, _far);
+
+	if (_type == ProjectionType::Perspective)
+	{
+		_matProjection = ::XMMatrixPerspectiveFovLH(_fov, _width / _height, _near, _far);
+	}
+	else
+	{
+		_matProjection = ::XMMatrixOrthographicLH(_width, _height, _near, _far);
+	}
+
+	
 }

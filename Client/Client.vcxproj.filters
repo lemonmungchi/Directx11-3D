@@ -16,9 +16,6 @@
     <Filter Include="Shaders\Common">
       <UniqueIdentifier>{e55f371a-3253-45e9-9187-2714c3eda587}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Week3">
-      <UniqueIdentifier>{ab4ce2eb-b95b-4efa-a5b0-d01f5342e777}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Game\Week4">
       <UniqueIdentifier>{c480add8-7583-4abb-bda1-e5b59706958f}</UniqueIdentifier>
     </Filter>
@@ -39,25 +36,7 @@
     <ClCompile Include="CameraScript.cpp">
       <Filter>Main\Camera</Filter>
     </ClCompile>
-    <ClCompile Include="SceneDemo.cpp">
-      <Filter>Game\Week3</Filter>
-    </ClCompile>
-    <ClCompile Include="GroupDemo.cpp">
-      <Filter>Game\Week3</Filter>
-    </ClCompile>
-    <ClCompile Include="RawBufferDemo.cpp">
-      <Filter>Game\Week3</Filter>
-    </ClCompile>
-    <ClCompile Include="StructuredBufferDemo.cpp">
-      <Filter>Game\Week3</Filter>
-    </ClCompile>
-    <ClCompile Include="TextureBufferDemo.cpp">
-      <Filter>Game\Week3</Filter>
-    </ClCompile>
-    <ClCompile Include="ViewportDemo.cpp">
-      <Filter>Game\Week3</Filter>
-    </ClCompile>
-    <ClCompile Include="CollisionDemo.cpp">
+    <ClCompile Include="OrthoGraphicDemo.cpp">
       <Filter>Game\Week4</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,25 +50,7 @@
     <ClInclude Include="CameraScript.h">
       <Filter>Main\Camera</Filter>
     </ClInclude>
-    <ClInclude Include="SceneDemo.h">
-      <Filter>Game\Week3</Filter>
-    </ClInclude>
-    <ClInclude Include="TextureBufferDemo.h">
-      <Filter>Game\Week3</Filter>
-    </ClInclude>
-    <ClInclude Include="GroupDemo.h">
-      <Filter>Game\Week3</Filter>
-    </ClInclude>
-    <ClInclude Include="RawBufferDemo.h">
-      <Filter>Game\Week3</Filter>
-    </ClInclude>
-    <ClInclude Include="StructuredBufferDemo.h">
-      <Filter>Game\Week3</Filter>
-    </ClInclude>
-    <ClInclude Include="ViewportDemo.h">
-      <Filter>Game\Week3</Filter>
-    </ClInclude>
-    <ClInclude Include="CollisionDemo.h">
+    <ClInclude Include="OrthoGraphicDemo.h">
       <Filter>Game\Week4</Filter>
     </ClInclude>
   </ItemGroup>

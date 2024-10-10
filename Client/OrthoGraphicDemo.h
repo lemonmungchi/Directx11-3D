@@ -1,7 +1,7 @@
 #pragma once
 #include "IExecute.h"
 
-class ViewportDemo : public IExecute
+class OrthoGraphicDemo : public IExecute
 {
 public:
 	void Init() override;
@@ -12,4 +12,5 @@ private:
 	shared_ptr<Shader> _shader;
 
 };
+
 

@@ -13,10 +13,3 @@ private:
 
 };
 
-#include "MonoBehaviour.h"
-class MoveScript : public MonoBehaviour
-{
-public:
-	virtual void Update() override;
-};
-
