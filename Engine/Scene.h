@@ -21,6 +21,8 @@ public:
 	shared_ptr<GameObject> GetUICamera();
 	shared_ptr<GameObject> GetLight() { return _lights.empty() ? nullptr : *_lights.begin(); }
 
+	void PickUI();
+
 	shared_ptr<class GameObject> Pick(int32 screenX, int32 screenY);
 
 	void CheckCollision();
