@@ -1,6 +1,5 @@
 c:\project\directx11-3d\libraries\lib\engine\engine.pdb
 c:\project\directx11-3d\libraries\lib\engine\engine.idb
-c:\project\directx11-3d\intermediate\debug\mathutils.obj
 c:\project\directx11-3d\intermediate\debug\material.obj
 c:\project\directx11-3d\intermediate\debug\light.obj
 c:\project\directx11-3d\intermediate\debug\instancingmanager.obj
@@ -18,9 +17,9 @@ c:\project\directx11-3d\intermediate\debug\fileutils.obj
 c:\project\directx11-3d\intermediate\debug\constantbuffer.obj
 c:\project\directx11-3d\intermediate\debug\component.obj
 c:\project\directx11-3d\intermediate\debug\camera.obj
+c:\project\directx11-3d\intermediate\debug\button.obj
 c:\project\directx11-3d\intermediate\debug\basecollider.obj
 c:\project\directx11-3d\intermediate\debug\aabbboxcollider.obj
-c:\project\directx11-3d\intermediate\debug\spherecollider.obj
 c:\project\directx11-3d\intermediate\debug\simplemath.obj
 c:\project\directx11-3d\intermediate\debug\shader.obj
 c:\project\directx11-3d\intermediate\debug\scenemanager.obj
@@ -40,6 +39,7 @@ c:\project\directx11-3d\intermediate\debug\modelanimation.obj
 c:\project\directx11-3d\intermediate\debug\model.obj
 c:\project\directx11-3d\intermediate\debug\meshrenderer.obj
 c:\project\directx11-3d\intermediate\debug\mesh.obj
+c:\project\directx11-3d\intermediate\debug\mathutils.obj
 c:\project\directx11-3d\intermediate\debug\viewport.obj
 c:\project\directx11-3d\intermediate\debug\vertexdata.obj
 c:\project\directx11-3d\intermediate\debug\vertexbuffer.obj
@@ -51,6 +51,7 @@ c:\project\directx11-3d\intermediate\debug\texture.obj
 c:\project\directx11-3d\intermediate\debug\terrain.obj
 c:\project\directx11-3d\intermediate\debug\technique.obj
 c:\project\directx11-3d\intermediate\debug\structuredbuffer.obj
+c:\project\directx11-3d\intermediate\debug\spherecollider.obj
 c:\project\directx11-3d\intermediate\debug\tinyxml2.obj
 c:\project\directx11-3d\intermediate\debug\imgui_widgets.obj
 c:\project\directx11-3d\intermediate\debug\imgui_tables.obj
@@ -59,10 +60,11 @@ c:\project\directx11-3d\intermediate\debug\imgui_impl_dx11.obj
 c:\project\directx11-3d\intermediate\debug\imgui_draw.obj
 c:\project\directx11-3d\intermediate\debug\imgui_demo.obj
 c:\project\directx11-3d\intermediate\debug\imgui.obj
-c:\project\directx11-3d\intermediate\debug\button.obj
 c:\project\directx11-3d\intermediate\debug\engine.pch
 c:\project\directx11-3d\intermediate\debug\pch.obj
+c:\project\directx11-3d\intermediate\debug\billboard.obj
 c:\project\directx11-3d\libraries\lib\engine\engine.lib
+c:\project\directx11-3d\intermediate\debug\buttondemo.obj
 c:\project\directx11-3d\intermediate\debug\camerascript.obj
 c:\project\directx11-3d\intermediate\debug\main.obj
 c:\project\directx11-3d\intermediate\debug\orthographicdemo.obj

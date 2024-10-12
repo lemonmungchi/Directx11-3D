@@ -17,7 +17,8 @@ void Transform::Update()
 {
 }
 
-Vec3 ToEulerAngles(Quaternion q) {
+Vec3 Transform::ToEulerAngles(Quaternion q) 
+{
 	Vec3 angles;
 
 	// roll (x-axis rotation)

@@ -249,6 +249,9 @@
     <ClInclude Include="Button.h">
       <Filter>06. UI &amp; Effect</Filter>
     </ClInclude>
+    <ClInclude Include="Billboard.h">
+      <Filter>06. UI &amp; Effect</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -432,6 +435,9 @@
       <Filter>99. Headers\Math</Filter>
     </ClCompile>
     <ClCompile Include="Button.cpp">
+      <Filter>06. UI &amp; Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Billboard.cpp">
       <Filter>06. UI &amp; Effect</Filter>
     </ClCompile>
   </ItemGroup>

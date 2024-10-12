@@ -14,6 +14,8 @@ public:
 
 	void UpdateTransform();
 
+	static Vec3 ToEulerAngles(Quaternion q);
+
 	//Local
 	Vec3 GetLocalScale() { return _localScale; }
 	void SetLocalScale(const Vec3& localScale) { _localScale = localScale; UpdateTransform(); }

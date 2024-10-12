@@ -10,6 +10,7 @@
 #include "BaseCollider.h"
 #include "Terrain.h"
 #include "Button.h"
+#include "Billboard.h"
 
 GameObject::GameObject()
 {
@@ -150,6 +151,12 @@ shared_ptr<Button> GameObject::GetButton()
 {
 	shared_ptr<Component> component = GetFixedComponent(ComponentType::Button);
 	return static_pointer_cast<Button>(component);
+}
+
+shared_ptr<Billboard> GameObject::GetBillBoard()
+{
+	shared_ptr<Component> component = GetFixedComponent(ComponentType::BillBoard);
+	return static_pointer_cast<Billboard>(component);
 }
 
 std::shared_ptr<Transform> GameObject::GetOrAddTransform()

@@ -14,6 +14,7 @@ enum class ComponentType : uint8
 	Collider,
 	Terrain,
 	Button,
+	BillBoard,
 	// ...
 	Script,
 

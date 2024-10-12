@@ -30,6 +30,9 @@
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\27. StructuredBufferDemo.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\28. BillBoardDemo.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
