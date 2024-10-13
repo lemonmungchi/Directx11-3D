@@ -25,6 +25,7 @@
     <ClInclude Include="Main.h" />
     <ClInclude Include="OrthoGraphicDemo.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="SnowDemo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BillBoardDemo.cpp" />
@@ -36,6 +37,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="SnowDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\Shaders\00. Global.fx" />
@@ -47,6 +49,7 @@
     <FxCompile Include="..\Shaders\26. TextureBufferDemo.fx" />
     <FxCompile Include="..\Shaders\27. StructuredBufferDemo.fx" />
     <FxCompile Include="..\Shaders\28. BillBoardDemo.fx" />
+    <FxCompile Include="..\Shaders\29. SnowDemo.fx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

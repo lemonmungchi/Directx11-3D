@@ -118,6 +118,78 @@ RasterizerState FrontCounterClockwiseTrue
     FrontCounterClockwise = true;
 };
 
+////////////////
+// BlendState //
+////////////////
+
+BlendState AlphaBlend
+{
+    AlphaToCoverageEnable = false;
+
+    BlendEnable[0] = true;
+    //밑에 2개 섞어주기
+    SrcBlend[0] = SRC_ALPHA;
+    //1-a
+    DestBlend[0] = INV_SRC_ALPHA;
+    BlendOp[0] = ADD;
+
+    SrcBlendAlpha[0] = One;
+    DestBlendAlpha[0] = Zero;
+    BlendOpAlpha[0] = Add;
+
+    RenderTargetWriteMask[0] = 15;
+};
+
+BlendState AlphaBlendAlphaToCoverageEnable
+{
+    AlphaToCoverageEnable = true;
+
+    BlendEnable[0] = true;
+    //밑에 2개 섞어주기
+    SrcBlend[0] = SRC_ALPHA;
+    //1-a
+    DestBlend[0] = INV_SRC_ALPHA;
+    BlendOp[0] = ADD;
+
+    SrcBlendAlpha[0] = One;
+    DestBlendAlpha[0] = Zero;
+    BlendOpAlpha[0] = Add;
+
+    RenderTargetWriteMask[0] = 15;
+};
+
+BlendState AdditiveBlend
+{
+    AlphaToCoverageEnable = true;
+
+    BlendEnable[0] = true;
+    SrcBlend[0] = One;
+    DestBlend[0] = One;
+    BlendOp[0] = ADD;
+
+    SrcBlendAlpha[0] = One;
+    DestBlendAlpha[0] = Zero;
+    BlendOpAlpha[0] = Add;
+
+    RenderTargetWriteMask[0] = 15;
+};
+
+BlendState AdditiveBlendAlphaToCoverageEnable
+{
+    AlphaToCoverageEnable = true;
+
+    BlendEnable[0] = true;
+    SrcBlend[0] = One;
+    DestBlend[0] = One;
+    BlendOp[0] = ADD;
+
+    SrcBlendAlpha[0] = One;
+    DestBlendAlpha[0] = Zero;
+    BlendOpAlpha[0] = Add;
+
+    RenderTargetWriteMask[0] = 15;
+};
+
 ///////////
 // Macro //
 ////////////
@@ -134,6 +206,14 @@ pass name                                           \
 pass name											\
 {													\
     SetRasterizerState(rs);							\
+    SetVertexShader(CompileShader(vs_5_0, vs()));	\
+    SetPixelShader(CompileShader(ps_5_0, ps()));	\
+}
+
+#define PASS_BS_VP(name, bs, vs, ps)				\
+pass name											\
+{													\
+	SetBlendState(bs, float4(0, 0, 0, 0), 0xFF);	\
     SetVertexShader(CompileShader(vs_5_0, vs()));	\
     SetPixelShader(CompileShader(ps_5_0, ps()));	\
 }

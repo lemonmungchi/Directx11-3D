@@ -47,6 +47,7 @@ C:\Project\Directx11-3D\Engine\Scene.cpp;C:\Project\Directx11-3D\Intermediate\De
 C:\Project\Directx11-3D\Engine\SceneManager.cpp;C:\Project\Directx11-3D\Intermediate\Debug\SceneManager.obj
 C:\Project\Directx11-3D\Engine\Shader.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Shader.obj
 C:\Project\Directx11-3D\Engine\SimpleMath.cpp;C:\Project\Directx11-3D\Intermediate\Debug\SimpleMath.obj
+C:\Project\Directx11-3D\Engine\SnowBillboard.cpp;C:\Project\Directx11-3D\Intermediate\Debug\SnowBillboard.obj
 C:\Project\Directx11-3D\Engine\SphereCollider.cpp;C:\Project\Directx11-3D\Intermediate\Debug\SphereCollider.obj
 C:\Project\Directx11-3D\Engine\StructuredBuffer.cpp;C:\Project\Directx11-3D\Intermediate\Debug\StructuredBuffer.obj
 C:\Project\Directx11-3D\Engine\Technique.cpp;C:\Project\Directx11-3D\Intermediate\Debug\Technique.obj

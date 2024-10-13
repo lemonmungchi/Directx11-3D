@@ -90,4 +90,18 @@ struct InstancedTweenDesc
 	TweenDesc tweens[MAX_MODEL_INSTANCE];
 };
 
+//어떻게 뿌릴지
+struct SnowBillboardDesc
+{
+	Color color = Color(1, 1, 1, 1);
 
+	Vec3 velocity = Vec3(0, -5, 0);
+	float drawDistance = 0;
+
+	Vec3 origin = Vec3(0, 0, 0);
+	//흔들림강도
+	float turbulence = 5;
+
+	Vec3 extent = Vec3(0, 0, 0);
+	float time;
+};

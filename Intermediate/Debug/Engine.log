@@ -51,6 +51,7 @@
   C:\Project\Directx11-3D\Engine\SceneManager.h
   C:\Project\Directx11-3D\Engine\Shader.h
   C:\Project\Directx11-3D\Engine\SimpleMath.h
+  C:\Project\Directx11-3D\Engine\SnowBillboard.h
   C:\Project\Directx11-3D\Engine\SphereCollider.h
   C:\Project\Directx11-3D\Engine\StructuredBuffer.h
   C:\Project\Directx11-3D\Engine\Technique.h
@@ -65,7 +66,7 @@
   C:\Project\Directx11-3D\Engine\VertexBuffer.h
   C:\Project\Directx11-3D\Engine\VertexData.h
   C:\Project\Directx11-3D\Engine\Viewport.h
-  66개 파일이 복사되었습니다.
+  67개 파일이 복사되었습니다.
   C:\Project\Directx11-3D\Engine\SimpleMath.inl
   1개 파일이 복사되었습니다.
   pch.cpp
@@ -76,6 +77,7 @@ C:\Project\Directx11-3D\Engine\InstancingBuffer.h(1,1): warning C4819: 현재 �
 C:\Project\Directx11-3D\Engine\Scene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\VertexData.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\BindShaderDesc.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Component.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Transform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Mesh.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -116,6 +118,7 @@ C:\Project\Directx11-3D\Engine\ModelRenderer.h(1,1): warning C4819: 현재 코�
 C:\Project\Directx11-3D\Engine\ModelAnimator.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\BaseCollider.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\Billboard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\SnowBillboard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Geometry.cpp
   GeometryHelper.cpp
 C:\Project\Directx11-3D\Engine\GeometryHelper.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -198,6 +201,12 @@ C:\Project\Directx11-3D\Engine\Shader.cpp(166,3): warning C4267: '인수': 'size
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
   SimpleMath.cpp
+  SnowBillboard.cpp
+C:\Project\Directx11-3D\Engine\SnowBillboard.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\SnowBillboard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\Material.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Project\Directx11-3D\Engine\Primitive3D.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   SphereCollider.cpp
 C:\Project\Directx11-3D\Engine\SphereCollider.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Project\Directx11-3D\Engine\SphereCollider.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.

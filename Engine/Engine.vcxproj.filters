@@ -46,11 +46,11 @@
     <Filter Include="04. Component\Collision">
       <UniqueIdentifier>{a109b873-4d9d-4336-b63d-6f909941a6ea}</UniqueIdentifier>
     </Filter>
-    <Filter Include="99. Headers\Math">
-      <UniqueIdentifier>{b76bb008-66bd-4af1-92ff-6e811a53373f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="06. UI &amp; Effect">
       <UniqueIdentifier>{b599088f-787e-42c7-b8f0-7868552d1676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Utils\Math">
+      <UniqueIdentifier>{b76bb008-66bd-4af1-92ff-6e811a53373f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -241,15 +241,18 @@
       <Filter>04. Component</Filter>
     </ClInclude>
     <ClInclude Include="Primitive3D.h">
-      <Filter>99. Headers\Math</Filter>
+      <Filter>98. Utils\Math</Filter>
     </ClInclude>
     <ClInclude Include="MathUtils.h">
-      <Filter>99. Headers\Math</Filter>
+      <Filter>98. Utils\Math</Filter>
     </ClInclude>
     <ClInclude Include="Button.h">
       <Filter>06. UI &amp; Effect</Filter>
     </ClInclude>
     <ClInclude Include="Billboard.h">
+      <Filter>06. UI &amp; Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowBillboard.h">
       <Filter>06. UI &amp; Effect</Filter>
     </ClInclude>
   </ItemGroup>
@@ -429,15 +432,18 @@
       <Filter>04. Component</Filter>
     </ClCompile>
     <ClCompile Include="Primitive3D.cpp">
-      <Filter>99. Headers\Math</Filter>
+      <Filter>98. Utils\Math</Filter>
     </ClCompile>
     <ClCompile Include="MathUtils.cpp">
-      <Filter>99. Headers\Math</Filter>
+      <Filter>98. Utils\Math</Filter>
     </ClCompile>
     <ClCompile Include="Button.cpp">
       <Filter>06. UI &amp; Effect</Filter>
     </ClCompile>
     <ClCompile Include="Billboard.cpp">
+      <Filter>06. UI &amp; Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowBillboard.cpp">
       <Filter>06. UI &amp; Effect</Filter>
     </ClCompile>
   </ItemGroup>

@@ -33,6 +33,9 @@
     <ContentFile>
       <FullPath>C:\Project\Directx11-3D\Binaries\28. BillBoardDemo.cso</FullPath>
     </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Project\Directx11-3D\Binaries\29. SnowDemo.cso</FullPath>
+    </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
